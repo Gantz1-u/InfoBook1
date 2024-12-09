@@ -1,9 +1,7 @@
 ﻿Public Class BooksMemberInt
     Private Sub BooksMemberInt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
+
     End Sub
     Private Sub Bt_LogoutMember_Click(sender As Object, e As EventArgs) Handles Bt_LogoutMember.Click
         PNL_LogoutMember.Visible = True
@@ -15,7 +13,7 @@
         Dim Login As New LoginForm()
         Login.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -58,6 +56,17 @@
     Private Sub Bt_BackBMTND_Click(sender As Object, e As EventArgs) Handles Bt_BackBMTND.Click
         PNL_TermsandCond.Visible = False
         PNL_MemberBorrowBook.Visible = True
+
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        PNL_TermsandCond.Visible = False
+        PNL_MemberBorrowBook.Visible = True
+
+
+    End Sub
+
+    Private Sub Bt_BooksMember_Click(sender As Object, e As EventArgs) Handles Bt_BooksMember.Click
 
     End Sub
 End Class

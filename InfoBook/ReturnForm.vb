@@ -1,9 +1,6 @@
 ﻿Public Class ReturnForm
     Private Sub ReturnForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
 
     End Sub
 
@@ -42,7 +39,7 @@
         Dim ManageForm As New Manage()
         ManageForm.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -50,7 +47,7 @@
         Dim Booksadmin As New BooksAdmin1()
         Booksadmin.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -58,7 +55,7 @@
         Dim history As New History()
         history.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 End Class

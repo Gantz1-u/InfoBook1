@@ -92,33 +92,33 @@ Partial Class AvailableBook
         ' Label4
         ' 
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label4.Location = New Point(986, 513)
+        Label4.Location = New Point(621, 333)
         Label4.Name = "Label4"
-        Label4.Size = New Size(425, 106)
+        Label4.Size = New Size(226, 41)
         Label4.TabIndex = 15
         Label4.Text = "DESCRIPTION"
         ' 
         ' Label3
         ' 
         Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Segoe UI", 16F)
         Label3.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label3.Location = New Point(827, 363)
+        Label3.Location = New Point(495, 204)
         Label3.Name = "Label3"
-        Label3.Size = New Size(533, 63)
+        Label3.Size = New Size(287, 49)
         Label3.TabIndex = 14
         Label3.Text = "DATE OF PUBLICATION"
         ' 
         ' Label2
         ' 
         Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         Label2.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label2.Location = New Point(827, 307)
+        Label2.Location = New Point(495, 170)
         Label2.Name = "Label2"
-        Label2.Size = New Size(391, 67)
+        Label2.Size = New Size(142, 42)
         Label2.TabIndex = 13
         Label2.Text = "AUTHOR"
         ' 
@@ -133,10 +133,10 @@ Partial Class AvailableBook
         Guna2Button1.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Guna2Button1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.Black
-        Guna2Button1.Location = New Point(1450, 175)
+        Guna2Button1.Location = New Point(950, 84)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Button1.Size = New Size(142, 50)
+        Guna2Button1.Size = New Size(87, 41)
         Guna2Button1.TabIndex = 11
         Guna2Button1.Text = "Back"
         ' 
@@ -150,13 +150,13 @@ Partial Class AvailableBook
         Guna2Button7.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button7.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button7.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Guna2Button7.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2Button7.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button7.ForeColor = Color.Black
-        Guna2Button7.Location = New Point(1059, 882)
+        Guna2Button7.Location = New Point(635, 593)
         Guna2Button7.Name = "Guna2Button7"
         Guna2Button7.RightToLeft = RightToLeft.Yes
         Guna2Button7.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Guna2Button7.Size = New Size(231, 56)
+        Guna2Button7.Size = New Size(189, 56)
         Guna2Button7.TabIndex = 22
         Guna2Button7.Text = "BORROW"
         ' 
@@ -165,7 +165,7 @@ Partial Class AvailableBook
         LinkLabel1.AutoSize = True
         LinkLabel1.BackColor = Color.Transparent
         LinkLabel1.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        LinkLabel1.Location = New Point(719, 812)
+        LinkLabel1.Location = New Point(528, 525)
         LinkLabel1.Name = "LinkLabel1"
         LinkLabel1.Size = New Size(241, 31)
         LinkLabel1.TabIndex = 24
@@ -177,7 +177,7 @@ Partial Class AvailableBook
         CheckBox1.AutoSize = True
         CheckBox1.BackColor = Color.Transparent
         CheckBox1.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        CheckBox1.Location = New Point(607, 812)
+        CheckBox1.Location = New Point(413, 524)
         CheckBox1.Name = "CheckBox1"
         CheckBox1.Size = New Size(124, 35)
         CheckBox1.TabIndex = 25
@@ -189,9 +189,9 @@ Partial Class AvailableBook
         PNL_TermsNCond.BackgroundImage = CType(resources.GetObject("PNL_TermsNCond.BackgroundImage"), Image)
         PNL_TermsNCond.BackgroundImageLayout = ImageLayout.Stretch
         PNL_TermsNCond.Controls.Add(Guna2Button8)
-        PNL_TermsNCond.Location = New Point(557, 158)
+        PNL_TermsNCond.Location = New Point(316, 60)
         PNL_TermsNCond.Name = "PNL_TermsNCond"
-        PNL_TermsNCond.Size = New Size(1179, 907)
+        PNL_TermsNCond.Size = New Size(764, 662)
         PNL_TermsNCond.TabIndex = 26
         PNL_TermsNCond.Visible = False
         ' 
@@ -233,9 +233,9 @@ Partial Class AvailableBook
         PNL_BorrowDetails.Controls.Add(Label7)
         PNL_BorrowDetails.Controls.Add(Label6)
         PNL_BorrowDetails.Controls.Add(Label5)
-        PNL_BorrowDetails.Location = New Point(557, 158)
+        PNL_BorrowDetails.Location = New Point(316, 60)
         PNL_BorrowDetails.Name = "PNL_BorrowDetails"
-        PNL_BorrowDetails.Size = New Size(1324, 907)
+        PNL_BorrowDetails.Size = New Size(764, 662)
         PNL_BorrowDetails.TabIndex = 1
         PNL_BorrowDetails.Visible = False
         ' 
@@ -248,12 +248,12 @@ Partial Class AvailableBook
         Guna2Button10.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button10.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button10.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Guna2Button10.Font = New Font("Segoe UI", 22.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2Button10.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button10.ForeColor = Color.Black
-        Guna2Button10.Location = New Point(578, 786)
+        Guna2Button10.Location = New Point(352, 580)
         Guna2Button10.Name = "Guna2Button10"
         Guna2Button10.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2Button10.Size = New Size(225, 56)
+        Guna2Button10.Size = New Size(179, 56)
         Guna2Button10.TabIndex = 13
         Guna2Button10.Text = "Borrow"
         ' 
@@ -267,10 +267,10 @@ Partial Class AvailableBook
         Guna2Button9.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Guna2Button9.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button9.ForeColor = Color.Black
-        Guna2Button9.Location = New Point(940, 19)
+        Guna2Button9.Location = New Point(625, 24)
         Guna2Button9.Name = "Guna2Button9"
         Guna2Button9.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Guna2Button9.Size = New Size(107, 48)
+        Guna2Button9.Size = New Size(87, 41)
         Guna2Button9.TabIndex = 12
         Guna2Button9.Text = "Back"
         ' 
@@ -287,14 +287,14 @@ Partial Class AvailableBook
         Guna2TextBox6.Font = New Font("Segoe UI", 9F)
         Guna2TextBox6.ForeColor = Color.Black
         Guna2TextBox6.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox6.Location = New Point(363, 661)
+        Guna2TextBox6.Location = New Point(242, 500)
         Guna2TextBox6.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox6.Name = "Guna2TextBox6"
         Guna2TextBox6.PasswordChar = ChrW(0)
         Guna2TextBox6.PlaceholderText = ""
         Guna2TextBox6.SelectedText = ""
         Guna2TextBox6.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Guna2TextBox6.Size = New Size(684, 60)
+        Guna2TextBox6.Size = New Size(417, 55)
         Guna2TextBox6.TabIndex = 11
         ' 
         ' Guna2TextBox5
@@ -310,14 +310,14 @@ Partial Class AvailableBook
         Guna2TextBox5.Font = New Font("Segoe UI", 9F)
         Guna2TextBox5.ForeColor = Color.Black
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(363, 549)
+        Guna2TextBox5.Location = New Point(242, 415)
         Guna2TextBox5.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PasswordChar = ChrW(0)
         Guna2TextBox5.PlaceholderText = ""
         Guna2TextBox5.SelectedText = ""
         Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2TextBox5.Size = New Size(684, 60)
+        Guna2TextBox5.Size = New Size(417, 55)
         Guna2TextBox5.TabIndex = 10
         ' 
         ' Guna2TextBox4
@@ -333,14 +333,14 @@ Partial Class AvailableBook
         Guna2TextBox4.Font = New Font("Segoe UI", 9F)
         Guna2TextBox4.ForeColor = Color.Black
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(363, 429)
+        Guna2TextBox4.Location = New Point(242, 329)
         Guna2TextBox4.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PasswordChar = ChrW(0)
         Guna2TextBox4.PlaceholderText = ""
         Guna2TextBox4.SelectedText = ""
         Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Guna2TextBox4.Size = New Size(684, 60)
+        Guna2TextBox4.Size = New Size(417, 55)
         Guna2TextBox4.TabIndex = 9
         ' 
         ' Guna2TextBox3
@@ -356,14 +356,14 @@ Partial Class AvailableBook
         Guna2TextBox3.Font = New Font("Segoe UI", 9F)
         Guna2TextBox3.ForeColor = Color.Black
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(363, 312)
+        Guna2TextBox3.Location = New Point(242, 244)
         Guna2TextBox3.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = ""
         Guna2TextBox3.SelectedText = ""
         Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2TextBox3.Size = New Size(684, 60)
+        Guna2TextBox3.Size = New Size(417, 55)
         Guna2TextBox3.TabIndex = 8
         ' 
         ' Guna2TextBox2
@@ -379,7 +379,7 @@ Partial Class AvailableBook
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.ForeColor = Color.Black
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(363, 202)
+        Guna2TextBox2.Location = New Point(242, 166)
         Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
@@ -387,7 +387,7 @@ Partial Class AvailableBook
         Guna2TextBox2.PlaceholderText = ""
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Guna2TextBox2.Size = New Size(684, 60)
+        Guna2TextBox2.Size = New Size(417, 55)
         Guna2TextBox2.TabIndex = 7
         ' 
         ' Guna2TextBox1
@@ -403,7 +403,7 @@ Partial Class AvailableBook
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.ForeColor = Color.Black
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(363, 106)
+        Guna2TextBox1.Location = New Point(242, 85)
         Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
@@ -411,66 +411,66 @@ Partial Class AvailableBook
         Guna2TextBox1.PlaceholderText = ""
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Guna2TextBox1.Size = New Size(684, 60)
+        Guna2TextBox1.Size = New Size(417, 55)
         Guna2TextBox1.TabIndex = 6
         ' 
         ' Label10
         ' 
-        Label10.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label10.Font = New Font("Segoe UI", 16F)
         Label10.ForeColor = Color.White
-        Label10.Location = New Point(80, 661)
+        Label10.Location = New Point(53, 511)
         Label10.Name = "Label10"
-        Label10.Size = New Size(236, 60)
+        Label10.Size = New Size(168, 60)
         Label10.TabIndex = 5
         Label10.Text = "Student No:"
         ' 
         ' Label9
         ' 
-        Label9.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label9.Font = New Font("Segoe UI", 16F)
         Label9.ForeColor = Color.White
-        Label9.Location = New Point(162, 549)
+        Label9.Location = New Point(111, 427)
         Label9.Name = "Label9"
-        Label9.Size = New Size(168, 60)
+        Label9.Size = New Size(110, 60)
         Label9.TabIndex = 4
         Label9.Text = "Course:"
         ' 
         ' Label8
         ' 
-        Label8.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label8.Font = New Font("Segoe UI", 16F)
         Label8.ForeColor = Color.White
-        Label8.Location = New Point(21, 429)
+        Label8.Location = New Point(14, 340)
         Label8.Name = "Label8"
-        Label8.Size = New Size(299, 60)
+        Label8.Size = New Size(207, 60)
         Label8.TabIndex = 3
         Label8.Text = "Date of Borrow:"
         ' 
         ' Label7
         ' 
-        Label7.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label7.Font = New Font("Segoe UI", 16F)
         Label7.ForeColor = Color.White
-        Label7.Location = New Point(189, 312)
+        Label7.Location = New Point(127, 259)
         Label7.Name = "Label7"
-        Label7.Size = New Size(141, 60)
+        Label7.Size = New Size(94, 40)
         Label7.TabIndex = 2
         Label7.Text = "Email:"
         ' 
         ' Label6
         ' 
-        Label6.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label6.Font = New Font("Segoe UI", 16F)
         Label6.ForeColor = Color.White
-        Label6.Location = New Point(80, 202)
+        Label6.Location = New Point(53, 179)
         Label6.Name = "Label6"
-        Label6.Size = New Size(240, 60)
+        Label6.Size = New Size(168, 63)
         Label6.TabIndex = 1
         Label6.Text = "Book Name:"
         ' 
         ' Label5
         ' 
-        Label5.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label5.Font = New Font("Segoe UI", 16F)
         Label5.ForeColor = Color.White
-        Label5.Location = New Point(189, 106)
+        Label5.Location = New Point(119, 93)
         Label5.Name = "Label5"
-        Label5.Size = New Size(144, 60)
+        Label5.Size = New Size(102, 51)
         Label5.TabIndex = 0
         Label5.Text = "Name:"
         ' 
@@ -484,12 +484,12 @@ Partial Class AvailableBook
         Bt_BookAB.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_BookAB.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_BookAB.FillColor = Color.White
-        Bt_BookAB.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_BookAB.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_BookAB.ForeColor = Color.Black
-        Bt_BookAB.Location = New Point(141, 208)
+        Bt_BookAB.Location = New Point(52, 111)
         Bt_BookAB.Name = "Bt_BookAB"
         Bt_BookAB.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Bt_BookAB.Size = New Size(292, 87)
+        Bt_BookAB.Size = New Size(204, 77)
         Bt_BookAB.TabIndex = 27
         Bt_BookAB.Text = "BOOKS"
         ' 
@@ -503,12 +503,12 @@ Partial Class AvailableBook
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Guna2Button2.FillColor = Color.White
-        Guna2Button2.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Guna2Button2.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.Black
-        Guna2Button2.Location = New Point(141, 339)
+        Guna2Button2.Location = New Point(52, 215)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Guna2Button2.Size = New Size(292, 87)
+        Guna2Button2.Size = New Size(204, 77)
         Guna2Button2.TabIndex = 28
         Guna2Button2.Text = "RETURN"
         ' 
@@ -522,12 +522,12 @@ Partial Class AvailableBook
         Bt_ManageAB.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_ManageAB.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_ManageAB.FillColor = Color.White
-        Bt_ManageAB.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_ManageAB.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_ManageAB.ForeColor = Color.Black
-        Bt_ManageAB.Location = New Point(141, 473)
+        Bt_ManageAB.Location = New Point(52, 319)
         Bt_ManageAB.Name = "Bt_ManageAB"
         Bt_ManageAB.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        Bt_ManageAB.Size = New Size(292, 87)
+        Bt_ManageAB.Size = New Size(204, 77)
         Bt_ManageAB.TabIndex = 29
         Bt_ManageAB.Text = "MANAGE"
         ' 
@@ -541,12 +541,12 @@ Partial Class AvailableBook
         Bt_HistoryAB.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_HistoryAB.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_HistoryAB.FillColor = Color.White
-        Bt_HistoryAB.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_HistoryAB.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_HistoryAB.ForeColor = Color.Black
-        Bt_HistoryAB.Location = New Point(141, 607)
+        Bt_HistoryAB.Location = New Point(52, 424)
         Bt_HistoryAB.Name = "Bt_HistoryAB"
         Bt_HistoryAB.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        Bt_HistoryAB.Size = New Size(292, 87)
+        Bt_HistoryAB.Size = New Size(204, 77)
         Bt_HistoryAB.TabIndex = 30
         Bt_HistoryAB.Text = "HISTORY"
         ' 
@@ -560,23 +560,23 @@ Partial Class AvailableBook
         Bt_LogoutAB.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_LogoutAB.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_LogoutAB.FillColor = Color.White
-        Bt_LogoutAB.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_LogoutAB.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_LogoutAB.ForeColor = Color.Black
-        Bt_LogoutAB.Location = New Point(141, 743)
+        Bt_LogoutAB.Location = New Point(52, 538)
         Bt_LogoutAB.Name = "Bt_LogoutAB"
         Bt_LogoutAB.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        Bt_LogoutAB.Size = New Size(292, 87)
+        Bt_LogoutAB.Size = New Size(204, 77)
         Bt_LogoutAB.TabIndex = 31
         Bt_LogoutAB.Text = "LOG OUT"
         ' 
         ' Label1
         ' 
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Label1.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label1.Location = New Point(827, 228)
+        Label1.Location = New Point(495, 134)
         Label1.Name = "Label1"
-        Label1.Size = New Size(695, 96)
+        Label1.Size = New Size(314, 45)
         Label1.TabIndex = 12
         Label1.Text = "NAME OF THE BOOK"
         ' 
@@ -585,17 +585,17 @@ Partial Class AvailableBook
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
-        BackgroundImage = My.Resources.Resources.book_unavailable1
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1902, 1080)
+        ClientSize = New Size(1080, 720)
         ControlBox = False
         Controls.Add(PNL_BorrowDetails)
+        Controls.Add(PNL_TermsNCond)
         Controls.Add(Bt_LogoutAB)
         Controls.Add(Bt_HistoryAB)
         Controls.Add(Bt_ManageAB)
         Controls.Add(Guna2Button2)
         Controls.Add(Bt_BookAB)
-        Controls.Add(PNL_TermsNCond)
         Controls.Add(CheckBox1)
         Controls.Add(LinkLabel1)
         Controls.Add(Guna2Button7)

@@ -1,9 +1,7 @@
 ﻿Public Class SignUp
     Private Sub SignUp_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
+
     End Sub
 
     Private Sub Guna2TextBox2_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox2.TextChanged
@@ -23,7 +21,7 @@
             Dim Login As New LoginForm()
             Login.Show()
 
-            Me.Close()
+            Me.Hide()
 
         Else
             MessageBox.Show("Sign in Failed. Please fill out the fields", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -34,7 +32,7 @@
         Dim login As New LoginForm()
         login.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 End Class

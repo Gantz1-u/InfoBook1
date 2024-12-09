@@ -1,9 +1,6 @@
 ﻿Public Class AvailableBook
     Private Sub AvailableBook_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
     End Sub
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
         PNL_TermsNCond.Visible = True
@@ -24,7 +21,7 @@
         Dim BooksAdminForm As New BooksAdmin1()
         BooksAdminForm.Show()
 
-        Me.Close()
+        Me.Hide()
     End Sub
 
     Private Sub Guna2Button10_Click(sender As Object, e As EventArgs) Handles Guna2Button10.Click
@@ -39,7 +36,7 @@
         Dim BooksAdmin As New BooksAdmin1()
         BooksAdmin.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -47,7 +44,7 @@
         Dim returnform As New ReturnForm()
         returnform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -55,7 +52,7 @@
         Dim manageform As New Manage()
         manageform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -63,7 +60,8 @@
         Dim history As New History()
         history.Show()
 
-        Me.Close()
+        Me.Hide()
+
 
     End Sub
 End Class

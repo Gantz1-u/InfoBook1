@@ -22,6 +22,7 @@ Partial Class History
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(History))
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -49,13 +50,13 @@ Partial Class History
         ' 
         ' PNL_LogOut
         ' 
-        PNL_LogOut.BackgroundImage = My.Resources.Resources.logout
+        PNL_LogOut.BackgroundImage = CType(resources.GetObject("PNL_LogOut.BackgroundImage"), Image)
         PNL_LogOut.BackgroundImageLayout = ImageLayout.Stretch
         PNL_LogOut.Controls.Add(Bt_NoHistory)
         PNL_LogOut.Controls.Add(Bt_YesHistory)
-        PNL_LogOut.Location = New Point(535, 137)
+        PNL_LogOut.Location = New Point(316, 60)
         PNL_LogOut.Name = "PNL_LogOut"
-        PNL_LogOut.Size = New Size(1232, 973)
+        PNL_LogOut.Size = New Size(764, 662)
         PNL_LogOut.TabIndex = 6
         PNL_LogOut.Visible = False
         ' 
@@ -69,12 +70,12 @@ Partial Class History
         Bt_NoHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_NoHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_NoHistory.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Bt_NoHistory.Font = New Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_NoHistory.Font = New Font("Segoe UI", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_NoHistory.ForeColor = Color.Black
-        Bt_NoHistory.Location = New Point(718, 470)
+        Bt_NoHistory.Location = New Point(469, 312)
         Bt_NoHistory.Name = "Bt_NoHistory"
         Bt_NoHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Bt_NoHistory.Size = New Size(292, 87)
+        Bt_NoHistory.Size = New Size(222, 56)
         Bt_NoHistory.TabIndex = 2
         Bt_NoHistory.Text = "No"
         ' 
@@ -88,12 +89,12 @@ Partial Class History
         Bt_YesHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_YesHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_YesHistory.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Bt_YesHistory.Font = New Font("Segoe UI Black", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_YesHistory.Font = New Font("Segoe UI Black", 16F, FontStyle.Bold)
         Bt_YesHistory.ForeColor = Color.Black
-        Bt_YesHistory.Location = New Point(203, 470)
+        Bt_YesHistory.Location = New Point(82, 312)
         Bt_YesHistory.Name = "Bt_YesHistory"
         Bt_YesHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Bt_YesHistory.Size = New Size(292, 87)
+        Bt_YesHistory.Size = New Size(222, 56)
         Bt_YesHistory.TabIndex = 0
         Bt_YesHistory.Text = "Yes"
         ' 
@@ -107,12 +108,12 @@ Partial Class History
         Bt_BooksHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_BooksHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_BooksHistory.FillColor = Color.White
-        Bt_BooksHistory.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_BooksHistory.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_BooksHistory.ForeColor = Color.Black
-        Bt_BooksHistory.Location = New Point(141, 208)
+        Bt_BooksHistory.Location = New Point(52, 111)
         Bt_BooksHistory.Name = "Bt_BooksHistory"
         Bt_BooksHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Bt_BooksHistory.Size = New Size(292, 87)
+        Bt_BooksHistory.Size = New Size(204, 77)
         Bt_BooksHistory.TabIndex = 7
         Bt_BooksHistory.Text = "BOOKS"
         ' 
@@ -126,12 +127,12 @@ Partial Class History
         Bt_ReturnHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_ReturnHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_ReturnHistory.FillColor = Color.White
-        Bt_ReturnHistory.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_ReturnHistory.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_ReturnHistory.ForeColor = Color.Black
-        Bt_ReturnHistory.Location = New Point(141, 339)
+        Bt_ReturnHistory.Location = New Point(52, 215)
         Bt_ReturnHistory.Name = "Bt_ReturnHistory"
         Bt_ReturnHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Bt_ReturnHistory.Size = New Size(292, 87)
+        Bt_ReturnHistory.Size = New Size(204, 77)
         Bt_ReturnHistory.TabIndex = 8
         Bt_ReturnHistory.Text = "RETURN"
         ' 
@@ -145,12 +146,12 @@ Partial Class History
         Bt_ManageHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_ManageHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_ManageHistory.FillColor = Color.White
-        Bt_ManageHistory.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_ManageHistory.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_ManageHistory.ForeColor = Color.Black
-        Bt_ManageHistory.Location = New Point(141, 473)
+        Bt_ManageHistory.Location = New Point(52, 319)
         Bt_ManageHistory.Name = "Bt_ManageHistory"
         Bt_ManageHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Bt_ManageHistory.Size = New Size(292, 87)
+        Bt_ManageHistory.Size = New Size(204, 77)
         Bt_ManageHistory.TabIndex = 9
         Bt_ManageHistory.Text = " MANAGE"
         ' 
@@ -164,12 +165,12 @@ Partial Class History
         Bt_History1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_History1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_History1.FillColor = Color.White
-        Bt_History1.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_History1.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_History1.ForeColor = Color.Black
-        Bt_History1.Location = New Point(141, 607)
+        Bt_History1.Location = New Point(52, 424)
         Bt_History1.Name = "Bt_History1"
         Bt_History1.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Bt_History1.Size = New Size(292, 87)
+        Bt_History1.Size = New Size(204, 77)
         Bt_History1.TabIndex = 10
         Bt_History1.Text = "HISTORY"
         ' 
@@ -183,12 +184,12 @@ Partial Class History
         Bt_LogoutHistory.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_LogoutHistory.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_LogoutHistory.FillColor = Color.White
-        Bt_LogoutHistory.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_LogoutHistory.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_LogoutHistory.ForeColor = Color.Black
-        Bt_LogoutHistory.Location = New Point(141, 743)
+        Bt_LogoutHistory.Location = New Point(52, 538)
         Bt_LogoutHistory.Name = "Bt_LogoutHistory"
         Bt_LogoutHistory.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Bt_LogoutHistory.Size = New Size(292, 87)
+        Bt_LogoutHistory.Size = New Size(204, 77)
         Bt_LogoutHistory.TabIndex = 11
         Bt_LogoutHistory.Text = "LOG OUT"
         ' 
@@ -197,9 +198,9 @@ Partial Class History
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
-        BackgroundImage = My.Resources.Resources.History
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1902, 1080)
+        ClientSize = New Size(1080, 720)
         ControlBox = False
         Controls.Add(Bt_LogoutHistory)
         Controls.Add(Bt_History1)

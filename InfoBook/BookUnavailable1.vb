@@ -1,9 +1,6 @@
 ﻿Public Class BookUnavailable
     Private Sub BookUnavailable_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
 
     End Sub
 
@@ -11,7 +8,7 @@
         Dim BookAdminForm As New BooksAdmin1()
         BookAdminForm.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -19,7 +16,7 @@
         Dim returnform As New ReturnForm()
         returnform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -27,7 +24,7 @@
         Dim manageform As New Manage()
         manageform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -35,7 +32,11 @@
         Dim history As New History()
         history.Show()
 
-        Me.Close()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub Bt_BookBU_Click(sender As Object, e As EventArgs) Handles Bt_BookBU.Click
 
     End Sub
 End Class

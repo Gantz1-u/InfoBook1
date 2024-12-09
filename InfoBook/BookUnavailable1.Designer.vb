@@ -34,6 +34,7 @@ Partial Class BookUnavailable
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BookUnavailable))
         Label1 = New Label()
         Label2 = New Label()
         Label3 = New Label()
@@ -51,55 +52,55 @@ Partial Class BookUnavailable
         ' Label1
         ' 
         Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
         Label1.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label1.Location = New Point(827, 228)
+        Label1.Location = New Point(520, 151)
         Label1.Name = "Label1"
-        Label1.Size = New Size(695, 96)
+        Label1.Size = New Size(314, 45)
         Label1.TabIndex = 1
         Label1.Text = "NAME OF THE BOOK"
         ' 
         ' Label2
         ' 
         Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.Font = New Font("Segoe UI", 16F)
         Label2.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label2.Location = New Point(827, 307)
+        Label2.Location = New Point(520, 186)
         Label2.Name = "Label2"
-        Label2.Size = New Size(391, 67)
+        Label2.Size = New Size(142, 35)
         Label2.TabIndex = 2
         Label2.Text = "AUTHOR"
         ' 
         ' Label3
         ' 
         Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Segoe UI", 24F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.Font = New Font("Segoe UI", 16F)
         Label3.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label3.Location = New Point(827, 363)
+        Label3.Location = New Point(520, 221)
         Label3.Name = "Label3"
-        Label3.Size = New Size(533, 63)
+        Label3.Size = New Size(287, 44)
         Label3.TabIndex = 3
         Label3.Text = "DATE OF PUBLICATION"
         ' 
         ' Label4
         ' 
         Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label4.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
         Label4.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label4.Location = New Point(986, 513)
+        Label4.Location = New Point(635, 343)
         Label4.Name = "Label4"
-        Label4.Size = New Size(425, 106)
+        Label4.Size = New Size(226, 41)
         Label4.TabIndex = 4
         Label4.Text = "DESCRIPTION"
         ' 
         ' Label5
         ' 
         Label5.BackColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label5.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.Font = New Font("Segoe UI", 12F, FontStyle.Bold)
         Label5.ForeColor = Color.Black
-        Label5.Location = New Point(1047, 902)
+        Label5.Location = New Point(662, 601)
         Label5.Name = "Label5"
-        Label5.Size = New Size(248, 52)
+        Label5.Size = New Size(145, 37)
         Label5.TabIndex = 5
         Label5.Text = "UNAVAILABLE"
         Label5.TextAlign = ContentAlignment.TopCenter
@@ -114,12 +115,12 @@ Partial Class BookUnavailable
         Bt_BookBU.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_BookBU.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_BookBU.FillColor = Color.White
-        Bt_BookBU.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_BookBU.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_BookBU.ForeColor = Color.Black
-        Bt_BookBU.Location = New Point(141, 208)
+        Bt_BookBU.Location = New Point(52, 111)
         Bt_BookBU.Name = "Bt_BookBU"
         Bt_BookBU.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Bt_BookBU.Size = New Size(292, 87)
+        Bt_BookBU.Size = New Size(204, 77)
         Bt_BookBU.TabIndex = 6
         Bt_BookBU.Text = "BOOKS"
         ' 
@@ -133,12 +134,12 @@ Partial Class BookUnavailable
         Bt_ReturnBU.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_ReturnBU.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_ReturnBU.FillColor = Color.White
-        Bt_ReturnBU.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_ReturnBU.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_ReturnBU.ForeColor = Color.Black
-        Bt_ReturnBU.Location = New Point(141, 339)
+        Bt_ReturnBU.Location = New Point(52, 215)
         Bt_ReturnBU.Name = "Bt_ReturnBU"
         Bt_ReturnBU.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Bt_ReturnBU.Size = New Size(292, 87)
+        Bt_ReturnBU.Size = New Size(204, 77)
         Bt_ReturnBU.TabIndex = 7
         Bt_ReturnBU.Text = "RETURN"
         ' 
@@ -152,12 +153,12 @@ Partial Class BookUnavailable
         Bt_ManageBU.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_ManageBU.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_ManageBU.FillColor = Color.White
-        Bt_ManageBU.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_ManageBU.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_ManageBU.ForeColor = Color.Black
-        Bt_ManageBU.Location = New Point(141, 473)
+        Bt_ManageBU.Location = New Point(52, 319)
         Bt_ManageBU.Name = "Bt_ManageBU"
         Bt_ManageBU.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Bt_ManageBU.Size = New Size(292, 87)
+        Bt_ManageBU.Size = New Size(204, 77)
         Bt_ManageBU.TabIndex = 8
         Bt_ManageBU.Text = "MANAGE"
         ' 
@@ -171,12 +172,12 @@ Partial Class BookUnavailable
         Bt_HistoryBU.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_HistoryBU.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_HistoryBU.FillColor = Color.White
-        Bt_HistoryBU.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_HistoryBU.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_HistoryBU.ForeColor = Color.Black
-        Bt_HistoryBU.Location = New Point(141, 607)
+        Bt_HistoryBU.Location = New Point(52, 424)
         Bt_HistoryBU.Name = "Bt_HistoryBU"
         Bt_HistoryBU.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Bt_HistoryBU.Size = New Size(292, 87)
+        Bt_HistoryBU.Size = New Size(204, 77)
         Bt_HistoryBU.TabIndex = 9
         Bt_HistoryBU.Text = "HISTORY"
         ' 
@@ -190,12 +191,12 @@ Partial Class BookUnavailable
         Bt_LogoutBU.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Bt_LogoutBU.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
         Bt_LogoutBU.FillColor = Color.White
-        Bt_LogoutBU.Font = New Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_LogoutBU.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_LogoutBU.ForeColor = Color.Black
-        Bt_LogoutBU.Location = New Point(141, 743)
+        Bt_LogoutBU.Location = New Point(52, 538)
         Bt_LogoutBU.Name = "Bt_LogoutBU"
         Bt_LogoutBU.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Bt_LogoutBU.Size = New Size(292, 87)
+        Bt_LogoutBU.Size = New Size(204, 77)
         Bt_LogoutBU.TabIndex = 10
         Bt_LogoutBU.Text = "LOG OUT"
         ' 
@@ -210,10 +211,10 @@ Partial Class BookUnavailable
         Bt_BackBU.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_BackBU.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_BackBU.ForeColor = Color.Black
-        Bt_BackBU.Location = New Point(1450, 175)
+        Bt_BackBU.Location = New Point(950, 84)
         Bt_BackBU.Name = "Bt_BackBU"
         Bt_BackBU.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Bt_BackBU.Size = New Size(142, 50)
+        Bt_BackBU.Size = New Size(87, 41)
         Bt_BackBU.TabIndex = 11
         Bt_BackBU.Text = "Back"
         ' 
@@ -222,9 +223,9 @@ Partial Class BookUnavailable
         Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Segoe UI", 10.8F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
         Label6.ForeColor = Color.White
-        Label6.Location = New Point(764, 607)
+        Label6.Location = New Point(443, 400)
         Label6.Name = "Label6"
-        Label6.Size = New Size(882, 265)
+        Label6.Size = New Size(542, 170)
         Label6.TabIndex = 12
         Label6.Text = "Description"
         ' 
@@ -233,9 +234,9 @@ Partial Class BookUnavailable
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
-        BackgroundImage = My.Resources.Resources.book_unavailable
+        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1902, 1080)
+        ClientSize = New Size(1080, 720)
         ControlBox = False
         Controls.Add(Label6)
         Controls.Add(Bt_BackBU)

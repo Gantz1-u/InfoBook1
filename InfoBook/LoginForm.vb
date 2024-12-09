@@ -1,9 +1,6 @@
 ﻿Public Class LoginForm
     Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
 
     End Sub
 
@@ -20,7 +17,7 @@
             Dim BookAdminForm As New BooksAdmin1()
             BookAdminForm.Show()
 
-            Me.Close()
+            Me.Hide()
 
         Else
             MessageBox.Show("Log in Failed. Check your Credentials", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
@@ -31,6 +28,14 @@
         Dim SignUpForm As New SignUp()
         SignUpForm.Show()
 
-        Me.Close()
+        Me.Hide()
+    End Sub
+
+    Private Sub lblPassword_Click(sender As Object, e As EventArgs) Handles lblPassword.Click
+
+    End Sub
+
+    Private Sub lblUsername_Click(sender As Object, e As EventArgs) Handles lblUsername.Click
+
     End Sub
 End Class

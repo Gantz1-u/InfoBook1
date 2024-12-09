@@ -1,9 +1,7 @@
 ﻿Public Class BooksAdmin1
     Private Sub BooksAdmin1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
+
     End Sub
     Private Sub Bt_NextP1BA_Click(sender As Object, e As EventArgs) Handles Bt_NextP1BA.Click
         PNL_2ndpageBA.Visible = True
@@ -22,7 +20,7 @@
         Dim AvailablebookForm As New AvailableBook()
         AvailablebookForm.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -32,7 +30,7 @@
         Dim UnavailablebookForm As New AvailableBook()
         UnavailablebookForm.Show()
 
-        Me.Close()
+        Me.Hide()
 
 
     End Sub
@@ -41,7 +39,7 @@
         Dim Returnform As New ReturnForm()
         Returnform.Show()
 
-        Me.Close()
+        Me.Hide()
 
 
     End Sub
@@ -50,7 +48,7 @@
         Dim manageform As New Manage()
         manageform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -58,7 +56,11 @@
         Dim history As New History()
         history.Show()
 
-        Me.Close()
+        Me.Hide()
+
+    End Sub
+
+    Private Sub Bt_Book_Click(sender As Object, e As EventArgs) Handles Bt_Book.Click
 
     End Sub
 End Class

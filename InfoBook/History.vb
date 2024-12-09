@@ -1,9 +1,6 @@
 ﻿Public Class History
     Private Sub History_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
 
     End Sub
 
@@ -16,7 +13,7 @@
         Dim Login As New LoginForm()
         Login.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -24,7 +21,7 @@
         Dim history As New History()
         history.Show()
 
-        Me.Close()
+        Me.Hide()
 
 
     End Sub
@@ -33,7 +30,7 @@
         Dim Manageform As New Manage()
         Manageform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -41,7 +38,7 @@
         Dim returnform As New ReturnForm()
         returnform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -49,7 +46,7 @@
         Dim Booksadmin As New BooksAdmin1()
         Booksadmin.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 End Class

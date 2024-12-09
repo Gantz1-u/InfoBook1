@@ -1,16 +1,13 @@
 ﻿Public Class Manage
     Private Sub Manage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.FormBorderStyle = FormBorderStyle.None
-        Me.WindowState = FormWindowState.Maximized
-        Me.Size = Screen.PrimaryScreen.Bounds.Size
-        Me.AutoScaleMode = AutoScaleMode.Dpi
     End Sub
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         Dim BooksAdminForm As New BooksAdmin1()
         BooksAdminForm.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -18,7 +15,7 @@
         Dim returnform As New ReturnForm()
         returnform.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
@@ -26,7 +23,7 @@
         Dim HistoryForm As New History()
         HistoryForm.Show()
 
-        Me.Close()
+        Me.Hide()
 
     End Sub
 
