@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Include="C:\Users\Marc Noel Ceriola\OneDrive\Desktop\infobook\SIgnUp.vb" Link="SIgnUp.vb" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Import Include="System.Data" />
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />

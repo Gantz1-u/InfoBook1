@@ -22,46 +22,69 @@ Partial Class SignUp
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SignUp))
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges4 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges5 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SignUp))
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        Panel2 = New Panel()
+        Bt_SignIn = New Guna.UI2.WinForms.Guna2Button()
+        LinkLabel1 = New LinkLabel()
         Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
-        Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
-        lblUserNM = New Label()
-        lblPassW = New Label()
-        linkReturn = New LinkLabel()
+        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
+        lblPassword = New Label()
+        lblUsername = New Label()
+        Panel2.SuspendLayout()
         SuspendLayout()
         ' 
-        ' Guna2TextBox1
+        ' Panel2
         ' 
-        Guna2TextBox1.BackColor = Color.Transparent
-        Guna2TextBox1.BorderRadius = 20
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges1
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox1.ForeColor = Color.Black
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(297, 181)
-        Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderForeColor = Color.DimGray
-        Guna2TextBox1.PlaceholderText = "Enter Username"
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox1.Size = New Size(249, 46)
-        Guna2TextBox1.TabIndex = 0
+        Panel2.BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
+        Panel2.BackgroundImage = CType(resources.GetObject("Panel2.BackgroundImage"), Image)
+        Panel2.Controls.Add(Bt_SignIn)
+        Panel2.Controls.Add(LinkLabel1)
+        Panel2.Controls.Add(Guna2TextBox2)
+        Panel2.Controls.Add(Guna2TextBox1)
+        Panel2.Controls.Add(lblPassword)
+        Panel2.Controls.Add(lblUsername)
+        Panel2.Dock = DockStyle.Fill
+        Panel2.Location = New Point(0, 0)
+        Panel2.Name = "Panel2"
+        Panel2.Size = New Size(800, 450)
+        Panel2.TabIndex = 1
+        ' 
+        ' Bt_SignIn
+        ' 
+        Bt_SignIn.BackColor = Color.Transparent
+        Bt_SignIn.BorderRadius = 20
+        Bt_SignIn.CustomizableEdges = CustomizableEdges1
+        Bt_SignIn.DisabledState.BorderColor = Color.DarkGray
+        Bt_SignIn.DisabledState.CustomBorderColor = Color.DarkGray
+        Bt_SignIn.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Bt_SignIn.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Bt_SignIn.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
+        Bt_SignIn.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Bt_SignIn.ForeColor = Color.Black
+        Bt_SignIn.Location = New Point(448, 309)
+        Bt_SignIn.Name = "Bt_SignIn"
+        Bt_SignIn.ShadowDecoration.CustomizableEdges = CustomizableEdges2
+        Bt_SignIn.Size = New Size(112, 35)
+        Bt_SignIn.TabIndex = 12
+        Bt_SignIn.Text = "Sign In"
+        ' 
+        ' LinkLabel1
+        ' 
+        LinkLabel1.BackColor = Color.Transparent
+        LinkLabel1.Font = New Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        LinkLabel1.LinkColor = Color.FromArgb(CByte(158), CByte(138), CByte(255))
+        LinkLabel1.Location = New Point(190, 309)
+        LinkLabel1.Name = "LinkLabel1"
+        LinkLabel1.Size = New Size(141, 43)
+        LinkLabel1.TabIndex = 11
+        LinkLabel1.TabStop = True
+        LinkLabel1.Text = "return to log in"
         ' 
         ' Guna2TextBox2
         ' 
@@ -78,96 +101,82 @@ Partial Class SignUp
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.ForeColor = Color.Black
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(297, 244)
+        Guna2TextBox2.Location = New Point(311, 248)
         Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderForeColor = Color.DimGray
-        Guna2TextBox2.PlaceholderText = "Enter Password"
+        Guna2TextBox2.PlaceholderText = "Enter your Password"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
         Guna2TextBox2.Size = New Size(249, 46)
-        Guna2TextBox2.TabIndex = 1
+        Guna2TextBox2.TabIndex = 9
         ' 
-        ' Guna2Button1
+        ' Guna2TextBox1
         ' 
-        Guna2Button1.BackColor = Color.Transparent
-        Guna2Button1.BorderRadius = 20
-        Guna2Button1.CustomizableEdges = CustomizableEdges5
-        Guna2Button1.DisabledState.BorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
-        Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Guna2Button1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Guna2Button1.ForeColor = Color.Black
-        Guna2Button1.Location = New Point(432, 305)
-        Guna2Button1.Name = "Guna2Button1"
-        Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Guna2Button1.Size = New Size(112, 35)
-        Guna2Button1.TabIndex = 2
-        Guna2Button1.Text = "Sign Up"
+        Guna2TextBox1.BackColor = Color.Transparent
+        Guna2TextBox1.BorderRadius = 20
+        Guna2TextBox1.CustomizableEdges = CustomizableEdges5
+        Guna2TextBox1.DefaultText = ""
+        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
+        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
+        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
+        Guna2TextBox1.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
+        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Font = New Font("Segoe UI", 9F)
+        Guna2TextBox1.ForeColor = Color.Black
+        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
+        Guna2TextBox1.Location = New Point(311, 185)
+        Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox1.Name = "Guna2TextBox1"
+        Guna2TextBox1.PasswordChar = ChrW(0)
+        Guna2TextBox1.PlaceholderForeColor = Color.DimGray
+        Guna2TextBox1.PlaceholderText = "Enter your Username"
+        Guna2TextBox1.SelectedText = ""
+        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges6
+        Guna2TextBox1.Size = New Size(249, 46)
+        Guna2TextBox1.TabIndex = 8
         ' 
-        ' lblUserNM
+        ' lblPassword
         ' 
-        lblUserNM.BackColor = Color.Transparent
-        lblUserNM.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold)
-        lblUserNM.ForeColor = Color.White
-        lblUserNM.Location = New Point(168, 196)
-        lblUserNM.Name = "lblUserNM"
-        lblUserNM.Size = New Size(131, 31)
-        lblUserNM.TabIndex = 3
-        lblUserNM.Text = "Username:"
+        lblPassword.BackColor = Color.Transparent
+        lblPassword.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblPassword.ForeColor = Color.White
+        lblPassword.Location = New Point(182, 262)
+        lblPassword.Name = "lblPassword"
+        lblPassword.Size = New Size(123, 32)
+        lblPassword.TabIndex = 7
+        lblPassword.Text = "Password:"
         ' 
-        ' lblPassW
+        ' lblUsername
         ' 
-        lblPassW.BackColor = Color.Transparent
-        lblPassW.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold)
-        lblPassW.ForeColor = Color.White
-        lblPassW.Location = New Point(168, 258)
-        lblPassW.Name = "lblPassW"
-        lblPassW.Size = New Size(123, 31)
-        lblPassW.TabIndex = 4
-        lblPassW.Text = "Password:"
-        ' 
-        ' linkReturn
-        ' 
-        linkReturn.BackColor = Color.Transparent
-        linkReturn.Font = New Font("Segoe UI", 13.8F)
-        linkReturn.LinkColor = Color.FromArgb(CByte(158), CByte(138), CByte(255))
-        linkReturn.Location = New Point(176, 305)
-        linkReturn.Name = "linkReturn"
-        linkReturn.Size = New Size(171, 43)
-        linkReturn.TabIndex = 5
-        linkReturn.TabStop = True
-        linkReturn.Text = "return to log in"
+        lblUsername.BackColor = Color.Transparent
+        lblUsername.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblUsername.ForeColor = Color.White
+        lblUsername.Location = New Point(182, 200)
+        lblUsername.Name = "lblUsername"
+        lblUsername.Size = New Size(131, 31)
+        lblUsername.TabIndex = 6
+        lblUsername.Text = "Username:"
         ' 
         ' SignUp
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
-        BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
-        BackgroundImageLayout = ImageLayout.None
-        ClientSize = New Size(720, 480)
-        ControlBox = False
-        Controls.Add(linkReturn)
-        Controls.Add(lblPassW)
-        Controls.Add(lblUserNM)
-        Controls.Add(Guna2Button1)
-        Controls.Add(Guna2TextBox2)
-        Controls.Add(Guna2TextBox1)
-        DoubleBuffered = True
+        ClientSize = New Size(800, 450)
+        Controls.Add(Panel2)
         FormBorderStyle = FormBorderStyle.None
         Name = "SignUp"
-        StartPosition = FormStartPosition.CenterScreen
+        Text = "SignUp"
+        Panel2.ResumeLayout(False)
         ResumeLayout(False)
     End Sub
-
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Guna2Button1 As Guna.UI2.WinForms.Guna2Button
-    Friend WithEvents lblUserNM As Label
-    Friend WithEvents lblPassW As Label
-    Friend WithEvents linkReturn As LinkLabel
+    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
+    Friend WithEvents lblPassword As Label
+    Friend WithEvents lblUsername As Label
+    Friend WithEvents Bt_SignIn As Guna.UI2.WinForms.Guna2Button
 End Class

@@ -38,4 +38,8 @@
     Private Sub lblUsername_Click(sender As Object, e As EventArgs) Handles lblUsername.Click
 
     End Sub
+
+    Private Sub Guna2TextBox1_TextChanged(sender As Object, e As EventArgs) Handles Guna2TextBox1.TextChanged
+
+    End Sub
 End Class

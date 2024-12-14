@@ -77,15 +77,15 @@ Partial Class BooksAdmin1
         Guna2TextBox1.Font = New Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2TextBox1.ForeColor = Color.Black
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(381, 96)
-        Guna2TextBox1.Margin = New Padding(4, 5, 4, 5)
+        Guna2TextBox1.Location = New Point(333, 72)
+        Guna2TextBox1.Margin = New Padding(4, 4, 4, 4)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderForeColor = Color.DimGray
         Guna2TextBox1.PlaceholderText = "SEARCH"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox1.Size = New Size(473, 61)
+        Guna2TextBox1.Size = New Size(414, 46)
         Guna2TextBox1.TabIndex = 0
         ' 
         ' PNL_2ndpageBA
@@ -97,26 +97,29 @@ Partial Class BooksAdmin1
         PNL_2ndpageBA.Controls.Add(Bt_BackBAP2)
         PNL_2ndpageBA.Controls.Add(Bt_NextBAP2)
         PNL_2ndpageBA.Controls.Add(Guna2TextBox2)
-        PNL_2ndpageBA.Location = New Point(317, 59)
+        PNL_2ndpageBA.Location = New Point(277, 44)
+        PNL_2ndpageBA.Margin = New Padding(3, 2, 3, 2)
         PNL_2ndpageBA.Name = "PNL_2ndpageBA"
-        PNL_2ndpageBA.Size = New Size(764, 662)
+        PNL_2ndpageBA.Size = New Size(668, 496)
         PNL_2ndpageBA.TabIndex = 6
         PNL_2ndpageBA.Visible = False
         ' 
         ' Button2
         ' 
-        Button2.Location = New Point(540, 390)
+        Button2.Location = New Point(472, 292)
+        Button2.Margin = New Padding(3, 2, 3, 2)
         Button2.Name = "Button2"
-        Button2.Size = New Size(108, 52)
+        Button2.Size = New Size(94, 39)
         Button2.TabIndex = 4
         Button2.Text = "unavailable"
         Button2.UseVisualStyleBackColor = True
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(193, 390)
+        Button1.Location = New Point(169, 292)
+        Button1.Margin = New Padding(3, 2, 3, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(108, 52)
+        Button1.Size = New Size(94, 39)
         Button1.TabIndex = 3
         Button1.Text = "available"
         Button1.UseVisualStyleBackColor = True
@@ -132,10 +135,11 @@ Partial Class BooksAdmin1
         Bt_BackBAP2.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_BackBAP2.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_BackBAP2.ForeColor = Color.Black
-        Bt_BackBAP2.Location = New Point(415, 548)
+        Bt_BackBAP2.Location = New Point(363, 411)
+        Bt_BackBAP2.Margin = New Padding(3, 2, 3, 2)
         Bt_BackBAP2.Name = "Bt_BackBAP2"
         Bt_BackBAP2.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Bt_BackBAP2.Size = New Size(87, 41)
+        Bt_BackBAP2.Size = New Size(76, 31)
         Bt_BackBAP2.TabIndex = 2
         Bt_BackBAP2.Text = "Back"
         ' 
@@ -150,10 +154,11 @@ Partial Class BooksAdmin1
         Bt_NextBAP2.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_NextBAP2.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_NextBAP2.ForeColor = Color.Black
-        Bt_NextBAP2.Location = New Point(561, 548)
+        Bt_NextBAP2.Location = New Point(491, 411)
+        Bt_NextBAP2.Margin = New Padding(3, 2, 3, 2)
         Bt_NextBAP2.Name = "Bt_NextBAP2"
         Bt_NextBAP2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Bt_NextBAP2.Size = New Size(87, 41)
+        Bt_NextBAP2.Size = New Size(76, 31)
         Bt_NextBAP2.TabIndex = 1
         Bt_NextBAP2.Text = "Next"
         ' 
@@ -171,15 +176,14 @@ Partial Class BooksAdmin1
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.ForeColor = Color.Black
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(65, 35)
-        Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox2.Location = New Point(57, 26)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderForeColor = Color.DimGray
         Guna2TextBox2.PlaceholderText = "SEARCH"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox2.Size = New Size(493, 64)
+        Guna2TextBox2.Size = New Size(431, 48)
         Guna2TextBox2.TabIndex = 0
         ' 
         ' Bt_Book
@@ -194,10 +198,11 @@ Partial Class BooksAdmin1
         Bt_Book.FillColor = Color.White
         Bt_Book.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_Book.ForeColor = Color.Black
-        Bt_Book.Location = New Point(52, 111)
+        Bt_Book.Location = New Point(46, 83)
+        Bt_Book.Margin = New Padding(3, 2, 3, 2)
         Bt_Book.Name = "Bt_Book"
         Bt_Book.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Bt_Book.Size = New Size(204, 77)
+        Bt_Book.Size = New Size(178, 58)
         Bt_Book.TabIndex = 7
         Bt_Book.Text = "BOOKS"
         ' 
@@ -213,10 +218,11 @@ Partial Class BooksAdmin1
         Bt_Return.FillColor = Color.White
         Bt_Return.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_Return.ForeColor = Color.Black
-        Bt_Return.Location = New Point(52, 215)
+        Bt_Return.Location = New Point(46, 161)
+        Bt_Return.Margin = New Padding(3, 2, 3, 2)
         Bt_Return.Name = "Bt_Return"
         Bt_Return.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Bt_Return.Size = New Size(204, 77)
+        Bt_Return.Size = New Size(178, 58)
         Bt_Return.TabIndex = 8
         Bt_Return.Text = "RETURN"
         ' 
@@ -232,10 +238,11 @@ Partial Class BooksAdmin1
         Bt_Manage.FillColor = Color.White
         Bt_Manage.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_Manage.ForeColor = Color.Black
-        Bt_Manage.Location = New Point(52, 319)
+        Bt_Manage.Location = New Point(46, 239)
+        Bt_Manage.Margin = New Padding(3, 2, 3, 2)
         Bt_Manage.Name = "Bt_Manage"
         Bt_Manage.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Bt_Manage.Size = New Size(204, 77)
+        Bt_Manage.Size = New Size(178, 58)
         Bt_Manage.TabIndex = 9
         Bt_Manage.Text = "MANAGE"
         ' 
@@ -251,10 +258,11 @@ Partial Class BooksAdmin1
         Bt_History.FillColor = Color.White
         Bt_History.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_History.ForeColor = Color.Black
-        Bt_History.Location = New Point(52, 424)
+        Bt_History.Location = New Point(46, 318)
+        Bt_History.Margin = New Padding(3, 2, 3, 2)
         Bt_History.Name = "Bt_History"
         Bt_History.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Bt_History.Size = New Size(204, 77)
+        Bt_History.Size = New Size(178, 58)
         Bt_History.TabIndex = 10
         Bt_History.Text = "HISTORY"
         ' 
@@ -270,10 +278,11 @@ Partial Class BooksAdmin1
         Bt_logout.FillColor = Color.White
         Bt_logout.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_logout.ForeColor = Color.Black
-        Bt_logout.Location = New Point(52, 538)
+        Bt_logout.Location = New Point(46, 404)
+        Bt_logout.Margin = New Padding(3, 2, 3, 2)
         Bt_logout.Name = "Bt_logout"
         Bt_logout.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Bt_logout.Size = New Size(204, 77)
+        Bt_logout.Size = New Size(178, 58)
         Bt_logout.TabIndex = 11
         Bt_logout.Text = "LOG OUT"
         ' 
@@ -288,10 +297,11 @@ Partial Class BooksAdmin1
         Bt_NextP1BA.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_NextP1BA.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_NextP1BA.ForeColor = Color.Black
-        Bt_NextP1BA.Location = New Point(890, 603)
+        Bt_NextP1BA.Location = New Point(779, 452)
+        Bt_NextP1BA.Margin = New Padding(3, 2, 3, 2)
         Bt_NextP1BA.Name = "Bt_NextP1BA"
         Bt_NextP1BA.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Bt_NextP1BA.Size = New Size(87, 41)
+        Bt_NextP1BA.Size = New Size(76, 31)
         Bt_NextP1BA.TabIndex = 12
         Bt_NextP1BA.Text = "Next"
         ' 
@@ -306,21 +316,22 @@ Partial Class BooksAdmin1
         Bt_BackP1BA.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_BackP1BA.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_BackP1BA.ForeColor = Color.Black
-        Bt_BackP1BA.Location = New Point(729, 603)
+        Bt_BackP1BA.Location = New Point(638, 452)
+        Bt_BackP1BA.Margin = New Padding(3, 2, 3, 2)
         Bt_BackP1BA.Name = "Bt_BackP1BA"
         Bt_BackP1BA.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Bt_BackP1BA.Size = New Size(87, 41)
+        Bt_BackP1BA.Size = New Size(76, 31)
         Bt_BackP1BA.TabIndex = 13
         Bt_BackP1BA.Text = "Back"
         ' 
         ' BooksAdmin1
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1080, 720)
+        ClientSize = New Size(945, 540)
         ControlBox = False
         Controls.Add(PNL_2ndpageBA)
         Controls.Add(Bt_BackP1BA)
@@ -333,6 +344,7 @@ Partial Class BooksAdmin1
         Controls.Add(Guna2TextBox1)
         DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(3, 2, 3, 2)
         Name = "BooksAdmin1"
         StartPosition = FormStartPosition.CenterScreen
         PNL_2ndpageBA.ResumeLayout(False)
