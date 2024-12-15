@@ -31,6 +31,10 @@ Partial Class ReturnForm
         Dim CustomizableEdges6 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges7 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges8 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges15 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -41,10 +45,6 @@ Partial Class ReturnForm
         Dim CustomizableEdges20 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges21 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges22 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges9 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges23 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges24 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges25 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -64,6 +64,12 @@ Partial Class ReturnForm
         Bt_BackPage2 = New Guna.UI2.WinForms.Guna2Button()
         Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         PNL_BookDescription = New Panel()
+        Bt_BackReturn1 = New Guna.UI2.WinForms.Guna2Button()
+        Bt_Return2 = New Guna.UI2.WinForms.Guna2Button()
+        Label4 = New Label()
+        Label3 = New Label()
+        Label2 = New Label()
+        Label1 = New Label()
         PNL_ReturnDetails = New Panel()
         Bt_DoneReturn = New Guna.UI2.WinForms.Guna2Button()
         Bt_BackReturn = New Guna.UI2.WinForms.Guna2Button()
@@ -73,12 +79,6 @@ Partial Class ReturnForm
         Label7 = New Label()
         Label6 = New Label()
         Label5 = New Label()
-        Bt_BackReturn1 = New Guna.UI2.WinForms.Guna2Button()
-        Bt_Return2 = New Guna.UI2.WinForms.Guna2Button()
-        Label4 = New Label()
-        Label3 = New Label()
-        Label2 = New Label()
-        Label1 = New Label()
         Bt_BooksReturn = New Guna.UI2.WinForms.Guna2Button()
         Bt_Return1 = New Guna.UI2.WinForms.Guna2Button()
         Bt_ManageReturn = New Guna.UI2.WinForms.Guna2Button()
@@ -104,15 +104,14 @@ Partial Class ReturnForm
         Guna2TextBox2.Font = New Font("Segoe UI", 9F)
         Guna2TextBox2.ForeColor = Color.Black
         Guna2TextBox2.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox2.Location = New Point(375, 98)
-        Guna2TextBox2.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox2.Location = New Point(328, 74)
         Guna2TextBox2.Name = "Guna2TextBox2"
         Guna2TextBox2.PasswordChar = ChrW(0)
         Guna2TextBox2.PlaceholderForeColor = Color.DimGray
         Guna2TextBox2.PlaceholderText = "SEARCH"
         Guna2TextBox2.SelectedText = ""
         Guna2TextBox2.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2TextBox2.Size = New Size(497, 62)
+        Guna2TextBox2.Size = New Size(435, 46)
         Guna2TextBox2.TabIndex = 23
         ' 
         ' PNL_Return2ndPage
@@ -123,17 +122,19 @@ Partial Class ReturnForm
         PNL_Return2ndPage.Controls.Add(Bt_NextPage1)
         PNL_Return2ndPage.Controls.Add(Bt_BackPage2)
         PNL_Return2ndPage.Controls.Add(Guna2TextBox1)
-        PNL_Return2ndPage.Location = New Point(316, 60)
+        PNL_Return2ndPage.Location = New Point(276, 45)
+        PNL_Return2ndPage.Margin = New Padding(3, 2, 3, 2)
         PNL_Return2ndPage.Name = "PNL_Return2ndPage"
-        PNL_Return2ndPage.Size = New Size(764, 662)
+        PNL_Return2ndPage.Size = New Size(668, 496)
         PNL_Return2ndPage.TabIndex = 24
         PNL_Return2ndPage.Visible = False
         ' 
         ' Button1
         ' 
-        Button1.Location = New Point(206, 397)
+        Button1.Location = New Point(180, 298)
+        Button1.Margin = New Padding(3, 2, 3, 2)
         Button1.Name = "Button1"
-        Button1.Size = New Size(103, 50)
+        Button1.Size = New Size(90, 38)
         Button1.TabIndex = 31
         Button1.Text = "Sample"
         Button1.UseVisualStyleBackColor = True
@@ -150,10 +151,11 @@ Partial Class ReturnForm
         Bt_NextPage1.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_NextPage1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold)
         Bt_NextPage1.ForeColor = Color.Black
-        Bt_NextPage1.Location = New Point(574, 549)
+        Bt_NextPage1.Location = New Point(502, 412)
+        Bt_NextPage1.Margin = New Padding(3, 2, 3, 2)
         Bt_NextPage1.Name = "Bt_NextPage1"
         Bt_NextPage1.ShadowDecoration.CustomizableEdges = CustomizableEdges4
-        Bt_NextPage1.Size = New Size(110, 41)
+        Bt_NextPage1.Size = New Size(96, 31)
         Bt_NextPage1.TabIndex = 30
         Bt_NextPage1.Text = "Next"
         ' 
@@ -169,10 +171,11 @@ Partial Class ReturnForm
         Bt_BackPage2.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_BackPage2.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold)
         Bt_BackPage2.ForeColor = Color.Black
-        Bt_BackPage2.Location = New Point(402, 549)
+        Bt_BackPage2.Location = New Point(352, 412)
+        Bt_BackPage2.Margin = New Padding(3, 2, 3, 2)
         Bt_BackPage2.Name = "Bt_BackPage2"
         Bt_BackPage2.ShadowDecoration.CustomizableEdges = CustomizableEdges6
-        Bt_BackPage2.Size = New Size(110, 41)
+        Bt_BackPage2.Size = New Size(96, 31)
         Bt_BackPage2.TabIndex = 28
         Bt_BackPage2.Text = "BACK"
         ' 
@@ -190,15 +193,14 @@ Partial Class ReturnForm
         Guna2TextBox1.Font = New Font("Segoe UI", 9F)
         Guna2TextBox1.ForeColor = Color.Black
         Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(61, 35)
-        Guna2TextBox1.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox1.Location = New Point(53, 26)
         Guna2TextBox1.Name = "Guna2TextBox1"
         Guna2TextBox1.PasswordChar = ChrW(0)
         Guna2TextBox1.PlaceholderForeColor = Color.DimGray
         Guna2TextBox1.PlaceholderText = "SEARCH"
         Guna2TextBox1.SelectedText = ""
         Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges8
-        Guna2TextBox1.Size = New Size(502, 64)
+        Guna2TextBox1.Size = New Size(439, 48)
         Guna2TextBox1.TabIndex = 1
         ' 
         ' PNL_BookDescription
@@ -211,11 +213,95 @@ Partial Class ReturnForm
         PNL_BookDescription.Controls.Add(Label3)
         PNL_BookDescription.Controls.Add(Label2)
         PNL_BookDescription.Controls.Add(Label1)
-        PNL_BookDescription.Location = New Point(316, 60)
+        PNL_BookDescription.Location = New Point(276, 45)
+        PNL_BookDescription.Margin = New Padding(3, 2, 3, 2)
         PNL_BookDescription.Name = "PNL_BookDescription"
-        PNL_BookDescription.Size = New Size(764, 662)
+        PNL_BookDescription.Size = New Size(668, 496)
         PNL_BookDescription.TabIndex = 2
         PNL_BookDescription.Visible = False
+        ' 
+        ' Bt_BackReturn1
+        ' 
+        Bt_BackReturn1.BackColor = Color.Transparent
+        Bt_BackReturn1.CustomizableEdges = CustomizableEdges9
+        Bt_BackReturn1.DisabledState.BorderColor = Color.DarkGray
+        Bt_BackReturn1.DisabledState.CustomBorderColor = Color.DarkGray
+        Bt_BackReturn1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Bt_BackReturn1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Bt_BackReturn1.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
+        Bt_BackReturn1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold)
+        Bt_BackReturn1.ForeColor = Color.Black
+        Bt_BackReturn1.Location = New Point(547, 18)
+        Bt_BackReturn1.Margin = New Padding(3, 2, 3, 2)
+        Bt_BackReturn1.Name = "Bt_BackReturn1"
+        Bt_BackReturn1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
+        Bt_BackReturn1.Size = New Size(76, 31)
+        Bt_BackReturn1.TabIndex = 27
+        Bt_BackReturn1.Text = "Back"
+        ' 
+        ' Bt_Return2
+        ' 
+        Bt_Return2.BackColor = Color.Transparent
+        Bt_Return2.BorderRadius = 30
+        Bt_Return2.CustomizableEdges = CustomizableEdges11
+        Bt_Return2.DisabledState.BorderColor = Color.DarkGray
+        Bt_Return2.DisabledState.CustomBorderColor = Color.DarkGray
+        Bt_Return2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
+        Bt_Return2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
+        Bt_Return2.FillColor = Color.WhiteSmoke
+        Bt_Return2.Font = New Font("Segoe UI", 14F, FontStyle.Bold)
+        Bt_Return2.ForeColor = Color.Black
+        Bt_Return2.Location = New Point(297, 383)
+        Bt_Return2.Margin = New Padding(3, 2, 3, 2)
+        Bt_Return2.Name = "Bt_Return2"
+        Bt_Return2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
+        Bt_Return2.Size = New Size(168, 42)
+        Bt_Return2.TabIndex = 26
+        Bt_Return2.Text = "RETURN"
+        ' 
+        ' Label4
+        ' 
+        Label4.BackColor = Color.Transparent
+        Label4.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
+        Label4.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
+        Label4.Location = New Point(295, 214)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(198, 31)
+        Label4.TabIndex = 5
+        Label4.Text = "DESCRIPTION"
+        ' 
+        ' Label3
+        ' 
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Segoe UI", 16F)
+        Label3.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
+        Label3.Location = New Point(178, 122)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(251, 32)
+        Label3.TabIndex = 4
+        Label3.Text = "DATE OF PUBLICATION"
+        ' 
+        ' Label2
+        ' 
+        Label2.BackColor = Color.Transparent
+        Label2.Font = New Font("Segoe UI", 16F)
+        Label2.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
+        Label2.Location = New Point(178, 89)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(124, 32)
+        Label2.TabIndex = 3
+        Label2.Text = "AUTHOR"
+        ' 
+        ' Label1
+        ' 
+        Label1.BackColor = Color.Transparent
+        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
+        Label1.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
+        Label1.Location = New Point(178, 56)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(275, 34)
+        Label1.TabIndex = 0
+        Label1.Text = "NAME OF THE BOOK"
         ' 
         ' PNL_ReturnDetails
         ' 
@@ -229,9 +315,10 @@ Partial Class ReturnForm
         PNL_ReturnDetails.Controls.Add(Label7)
         PNL_ReturnDetails.Controls.Add(Label6)
         PNL_ReturnDetails.Controls.Add(Label5)
-        PNL_ReturnDetails.Location = New Point(316, 60)
+        PNL_ReturnDetails.Location = New Point(276, 47)
+        PNL_ReturnDetails.Margin = New Padding(3, 2, 3, 2)
         PNL_ReturnDetails.Name = "PNL_ReturnDetails"
-        PNL_ReturnDetails.Size = New Size(764, 662)
+        PNL_ReturnDetails.Size = New Size(668, 494)
         PNL_ReturnDetails.TabIndex = 27
         PNL_ReturnDetails.Visible = False
         ' 
@@ -247,10 +334,11 @@ Partial Class ReturnForm
         Bt_DoneReturn.FillColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
         Bt_DoneReturn.Font = New Font("Segoe UI", 14F, FontStyle.Bold)
         Bt_DoneReturn.ForeColor = Color.Black
-        Bt_DoneReturn.Location = New Point(368, 489)
+        Bt_DoneReturn.Location = New Point(322, 367)
+        Bt_DoneReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_DoneReturn.Name = "Bt_DoneReturn"
         Bt_DoneReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Bt_DoneReturn.Size = New Size(179, 56)
+        Bt_DoneReturn.Size = New Size(157, 42)
         Bt_DoneReturn.TabIndex = 9
         Bt_DoneReturn.Text = "Done"
         ' 
@@ -265,10 +353,11 @@ Partial Class ReturnForm
         Bt_BackReturn.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_BackReturn.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_BackReturn.ForeColor = Color.Black
-        Bt_BackReturn.Location = New Point(625, 24)
+        Bt_BackReturn.Location = New Point(547, 18)
+        Bt_BackReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_BackReturn.Name = "Bt_BackReturn"
         Bt_BackReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges16
-        Bt_BackReturn.Size = New Size(87, 41)
+        Bt_BackReturn.Size = New Size(76, 31)
         Bt_BackReturn.TabIndex = 8
         Bt_BackReturn.Text = "Back"
         ' 
@@ -285,14 +374,13 @@ Partial Class ReturnForm
         Guna2TextBox5.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox5.Font = New Font("Segoe UI", 9F)
         Guna2TextBox5.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox5.Location = New Point(239, 375)
-        Guna2TextBox5.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox5.Location = New Point(209, 281)
         Guna2TextBox5.Name = "Guna2TextBox5"
         Guna2TextBox5.PasswordChar = ChrW(0)
         Guna2TextBox5.PlaceholderText = ""
         Guna2TextBox5.SelectedText = ""
         Guna2TextBox5.ShadowDecoration.CustomizableEdges = CustomizableEdges18
-        Guna2TextBox5.Size = New Size(429, 60)
+        Guna2TextBox5.Size = New Size(375, 45)
         Guna2TextBox5.TabIndex = 5
         ' 
         ' Guna2TextBox4
@@ -308,14 +396,13 @@ Partial Class ReturnForm
         Guna2TextBox4.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
         Guna2TextBox4.Font = New Font("Segoe UI", 9F)
         Guna2TextBox4.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox4.Location = New Point(239, 250)
-        Guna2TextBox4.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox4.Location = New Point(209, 188)
         Guna2TextBox4.Name = "Guna2TextBox4"
         Guna2TextBox4.PasswordChar = ChrW(0)
         Guna2TextBox4.PlaceholderText = ""
         Guna2TextBox4.SelectedText = ""
         Guna2TextBox4.ShadowDecoration.CustomizableEdges = CustomizableEdges20
-        Guna2TextBox4.Size = New Size(429, 60)
+        Guna2TextBox4.Size = New Size(375, 45)
         Guna2TextBox4.TabIndex = 4
         ' 
         ' Guna2TextBox3
@@ -332,14 +419,13 @@ Partial Class ReturnForm
         Guna2TextBox3.Font = New Font("Segoe UI", 9F)
         Guna2TextBox3.ForeColor = Color.Black
         Guna2TextBox3.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox3.Location = New Point(239, 139)
-        Guna2TextBox3.Margin = New Padding(3, 4, 3, 4)
+        Guna2TextBox3.Location = New Point(209, 104)
         Guna2TextBox3.Name = "Guna2TextBox3"
         Guna2TextBox3.PasswordChar = ChrW(0)
         Guna2TextBox3.PlaceholderText = ""
         Guna2TextBox3.SelectedText = ""
         Guna2TextBox3.ShadowDecoration.CustomizableEdges = CustomizableEdges22
-        Guna2TextBox3.Size = New Size(429, 60)
+        Guna2TextBox3.Size = New Size(375, 45)
         Guna2TextBox3.TabIndex = 3
         ' 
         ' Label7
@@ -347,9 +433,9 @@ Partial Class ReturnForm
         Label7.BackColor = Color.Transparent
         Label7.Font = New Font("Segoe UI", 16F)
         Label7.ForeColor = Color.White
-        Label7.Location = New Point(131, 385)
+        Label7.Location = New Point(115, 289)
         Label7.Name = "Label7"
-        Label7.Size = New Size(88, 60)
+        Label7.Size = New Size(77, 45)
         Label7.TabIndex = 2
         Label7.Text = "Issue:"
         ' 
@@ -358,9 +444,9 @@ Partial Class ReturnForm
         Label6.BackColor = Color.Transparent
         Label6.Font = New Font("Segoe UI", 16F)
         Label6.ForeColor = Color.White
-        Label6.Location = New Point(27, 266)
+        Label6.Location = New Point(24, 200)
         Label6.Name = "Label6"
-        Label6.Size = New Size(206, 36)
+        Label6.Size = New Size(180, 27)
         Label6.TabIndex = 1
         Label6.Text = "Date Returned:"
         ' 
@@ -369,92 +455,11 @@ Partial Class ReturnForm
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 16F)
         Label5.ForeColor = Color.White
-        Label5.Location = New Point(120, 150)
+        Label5.Location = New Point(105, 112)
         Label5.Name = "Label5"
-        Label5.Size = New Size(99, 49)
+        Label5.Size = New Size(87, 37)
         Label5.TabIndex = 0
         Label5.Text = "Name:"
-        ' 
-        ' Bt_BackReturn1
-        ' 
-        Bt_BackReturn1.BackColor = Color.Transparent
-        Bt_BackReturn1.CustomizableEdges = CustomizableEdges9
-        Bt_BackReturn1.DisabledState.BorderColor = Color.DarkGray
-        Bt_BackReturn1.DisabledState.CustomBorderColor = Color.DarkGray
-        Bt_BackReturn1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Bt_BackReturn1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Bt_BackReturn1.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
-        Bt_BackReturn1.Font = New Font("Segoe UI", 13.8F, FontStyle.Bold)
-        Bt_BackReturn1.ForeColor = Color.Black
-        Bt_BackReturn1.Location = New Point(625, 24)
-        Bt_BackReturn1.Name = "Bt_BackReturn1"
-        Bt_BackReturn1.ShadowDecoration.CustomizableEdges = CustomizableEdges10
-        Bt_BackReturn1.Size = New Size(87, 41)
-        Bt_BackReturn1.TabIndex = 27
-        Bt_BackReturn1.Text = "Back"
-        ' 
-        ' Bt_Return2
-        ' 
-        Bt_Return2.BackColor = Color.Transparent
-        Bt_Return2.BorderRadius = 30
-        Bt_Return2.CustomizableEdges = CustomizableEdges11
-        Bt_Return2.DisabledState.BorderColor = Color.DarkGray
-        Bt_Return2.DisabledState.CustomBorderColor = Color.DarkGray
-        Bt_Return2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
-        Bt_Return2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Bt_Return2.FillColor = Color.WhiteSmoke
-        Bt_Return2.Font = New Font("Segoe UI", 14F, FontStyle.Bold)
-        Bt_Return2.ForeColor = Color.Black
-        Bt_Return2.Location = New Point(339, 511)
-        Bt_Return2.Name = "Bt_Return2"
-        Bt_Return2.ShadowDecoration.CustomizableEdges = CustomizableEdges12
-        Bt_Return2.Size = New Size(192, 56)
-        Bt_Return2.TabIndex = 26
-        Bt_Return2.Text = "RETURN"
-        ' 
-        ' Label4
-        ' 
-        Label4.BackColor = Color.Transparent
-        Label4.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
-        Label4.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label4.Location = New Point(337, 285)
-        Label4.Name = "Label4"
-        Label4.Size = New Size(226, 41)
-        Label4.TabIndex = 5
-        Label4.Text = "DESCRIPTION"
-        ' 
-        ' Label3
-        ' 
-        Label3.BackColor = Color.Transparent
-        Label3.Font = New Font("Segoe UI", 16F)
-        Label3.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label3.Location = New Point(204, 162)
-        Label3.Name = "Label3"
-        Label3.Size = New Size(287, 42)
-        Label3.TabIndex = 4
-        Label3.Text = "DATE OF PUBLICATION"
-        ' 
-        ' Label2
-        ' 
-        Label2.BackColor = Color.Transparent
-        Label2.Font = New Font("Segoe UI", 16F)
-        Label2.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label2.Location = New Point(204, 119)
-        Label2.Name = "Label2"
-        Label2.Size = New Size(142, 42)
-        Label2.TabIndex = 3
-        Label2.Text = "AUTHOR"
-        ' 
-        ' Label1
-        ' 
-        Label1.BackColor = Color.Transparent
-        Label1.Font = New Font("Segoe UI", 18F, FontStyle.Bold)
-        Label1.ForeColor = Color.FromArgb(CByte(191), CByte(188), CByte(188))
-        Label1.Location = New Point(204, 74)
-        Label1.Name = "Label1"
-        Label1.Size = New Size(314, 45)
-        Label1.TabIndex = 0
-        Label1.Text = "NAME OF THE BOOK"
         ' 
         ' Bt_BooksReturn
         ' 
@@ -468,10 +473,11 @@ Partial Class ReturnForm
         Bt_BooksReturn.FillColor = Color.White
         Bt_BooksReturn.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_BooksReturn.ForeColor = Color.Black
-        Bt_BooksReturn.Location = New Point(52, 111)
+        Bt_BooksReturn.Location = New Point(46, 83)
+        Bt_BooksReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_BooksReturn.Name = "Bt_BooksReturn"
         Bt_BooksReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges24
-        Bt_BooksReturn.Size = New Size(204, 77)
+        Bt_BooksReturn.Size = New Size(178, 58)
         Bt_BooksReturn.TabIndex = 25
         Bt_BooksReturn.Text = "BOOKS"
         ' 
@@ -487,10 +493,11 @@ Partial Class ReturnForm
         Bt_Return1.FillColor = Color.White
         Bt_Return1.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_Return1.ForeColor = Color.Black
-        Bt_Return1.Location = New Point(52, 215)
+        Bt_Return1.Location = New Point(46, 161)
+        Bt_Return1.Margin = New Padding(3, 2, 3, 2)
         Bt_Return1.Name = "Bt_Return1"
         Bt_Return1.ShadowDecoration.CustomizableEdges = CustomizableEdges26
-        Bt_Return1.Size = New Size(204, 77)
+        Bt_Return1.Size = New Size(178, 58)
         Bt_Return1.TabIndex = 26
         Bt_Return1.Text = "RETURN"
         ' 
@@ -506,10 +513,11 @@ Partial Class ReturnForm
         Bt_ManageReturn.FillColor = Color.White
         Bt_ManageReturn.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_ManageReturn.ForeColor = Color.Black
-        Bt_ManageReturn.Location = New Point(52, 319)
+        Bt_ManageReturn.Location = New Point(46, 239)
+        Bt_ManageReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_ManageReturn.Name = "Bt_ManageReturn"
         Bt_ManageReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges28
-        Bt_ManageReturn.Size = New Size(204, 77)
+        Bt_ManageReturn.Size = New Size(178, 58)
         Bt_ManageReturn.TabIndex = 27
         Bt_ManageReturn.Text = "MANAGE"
         ' 
@@ -525,10 +533,11 @@ Partial Class ReturnForm
         Bt_HistoryReturn.FillColor = Color.White
         Bt_HistoryReturn.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_HistoryReturn.ForeColor = Color.Black
-        Bt_HistoryReturn.Location = New Point(52, 424)
+        Bt_HistoryReturn.Location = New Point(46, 318)
+        Bt_HistoryReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_HistoryReturn.Name = "Bt_HistoryReturn"
         Bt_HistoryReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges30
-        Bt_HistoryReturn.Size = New Size(204, 77)
+        Bt_HistoryReturn.Size = New Size(178, 58)
         Bt_HistoryReturn.TabIndex = 28
         Bt_HistoryReturn.Text = "HISTORY"
         ' 
@@ -544,10 +553,11 @@ Partial Class ReturnForm
         Bt_LogoutReturn.FillColor = Color.White
         Bt_LogoutReturn.Font = New Font("Segoe UI", 16F, FontStyle.Bold)
         Bt_LogoutReturn.ForeColor = Color.Black
-        Bt_LogoutReturn.Location = New Point(52, 538)
+        Bt_LogoutReturn.Location = New Point(46, 404)
+        Bt_LogoutReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_LogoutReturn.Name = "Bt_LogoutReturn"
         Bt_LogoutReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges32
-        Bt_LogoutReturn.Size = New Size(204, 77)
+        Bt_LogoutReturn.Size = New Size(178, 58)
         Bt_LogoutReturn.TabIndex = 29
         Bt_LogoutReturn.Text = "LOG OUT"
         ' 
@@ -562,21 +572,22 @@ Partial Class ReturnForm
         Bt_NextReturn.FillColor = Color.FromArgb(CByte(252), CByte(246), CByte(219))
         Bt_NextReturn.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Bt_NextReturn.ForeColor = Color.Black
-        Bt_NextReturn.Location = New Point(863, 610)
+        Bt_NextReturn.Location = New Point(755, 458)
+        Bt_NextReturn.Margin = New Padding(3, 2, 3, 2)
         Bt_NextReturn.Name = "Bt_NextReturn"
         Bt_NextReturn.ShadowDecoration.CustomizableEdges = CustomizableEdges34
-        Bt_NextReturn.Size = New Size(87, 41)
+        Bt_NextReturn.Size = New Size(76, 31)
         Bt_NextReturn.TabIndex = 30
         Bt_NextReturn.Text = "Next"
         ' 
         ' ReturnForm
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
-        ClientSize = New Size(1080, 720)
+        ClientSize = New Size(945, 540)
         ControlBox = False
         Controls.Add(PNL_ReturnDetails)
         Controls.Add(PNL_BookDescription)
@@ -590,6 +601,7 @@ Partial Class ReturnForm
         Controls.Add(Guna2TextBox2)
         DoubleBuffered = True
         FormBorderStyle = FormBorderStyle.None
+        Margin = New Padding(3, 2, 3, 2)
         Name = "ReturnForm"
         StartPosition = FormStartPosition.CenterScreen
         PNL_Return2ndPage.ResumeLayout(False)

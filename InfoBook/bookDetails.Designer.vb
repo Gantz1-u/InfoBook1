@@ -351,10 +351,10 @@ Partial Class BookDetails
         PNL_TermsandCond.BackgroundImageLayout = ImageLayout.Stretch
         PNL_TermsandCond.Controls.Add(Guna2Button1)
         PNL_TermsandCond.Controls.Add(Bt_BackBMTND)
-        PNL_TermsandCond.Location = New Point(128, 11)
+        PNL_TermsandCond.Location = New Point(84, 11)
         PNL_TermsandCond.Margin = New Padding(3, 2, 3, 2)
         PNL_TermsandCond.Name = "PNL_TermsandCond"
-        PNL_TermsandCond.Size = New Size(576, 440)
+        PNL_TermsandCond.Size = New Size(65, 76)
         PNL_TermsandCond.TabIndex = 2
         PNL_TermsandCond.Visible = False
         ' 
@@ -443,7 +443,7 @@ Partial Class BookDetails
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
         Label4.Font = New Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label4.Location = New Point(309, 174)
+        Label4.Location = New Point(271, 178)
         Label4.Name = "Label4"
         Label4.Size = New Size(193, 37)
         Label4.TabIndex = 16
@@ -452,11 +452,11 @@ Partial Class BookDetails
         ' RichTextBox1
         ' 
         RichTextBox1.BackColor = SystemColors.ScrollBar
-        RichTextBox1.Font = New Font("Segoe UI", 9F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
-        RichTextBox1.Location = New Point(118, 225)
+        RichTextBox1.Font = New Font("Segoe UI", 9.75F, FontStyle.Underline, GraphicsUnit.Point, CByte(0))
+        RichTextBox1.Location = New Point(39, 229)
         RichTextBox1.Name = "RichTextBox1"
         RichTextBox1.ReadOnly = True
-        RichTextBox1.Size = New Size(504, 126)
+        RichTextBox1.Size = New Size(638, 126)
         RichTextBox1.TabIndex = 18
         RichTextBox1.Text = ""
         ' 
@@ -472,7 +472,7 @@ Partial Class BookDetails
         Guna2Button2.FillColor = Color.Gray
         Guna2Button2.Font = New Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button2.ForeColor = Color.Black
-        Guna2Button2.Location = New Point(298, 425)
+        Guna2Button2.Location = New Point(284, 394)
         Guna2Button2.Name = "Guna2Button2"
         Guna2Button2.ShadowDecoration.CustomizableEdges = CustomizableEdges22
         Guna2Button2.Size = New Size(180, 45)
@@ -485,7 +485,7 @@ Partial Class BookDetails
         CheckBox1.BackColor = Color.Transparent
         CheckBox1.Font = New Font("Segoe UI", 8.25F, FontStyle.Bold Or FontStyle.Underline, GraphicsUnit.Point, CByte(0))
         CheckBox1.ForeColor = Color.SteelBlue
-        CheckBox1.Location = New Point(128, 391)
+        CheckBox1.Location = New Point(51, 380)
         CheckBox1.Name = "CheckBox1"
         CheckBox1.Size = New Size(136, 17)
         CheckBox1.TabIndex = 20

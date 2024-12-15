@@ -35,6 +35,9 @@ Partial Class LoginForm
         Guna2TextBox2 = New Guna.UI2.WinForms.Guna2TextBox()
         Bt_Login = New Guna.UI2.WinForms.Guna2Button()
         LinkLabel1 = New LinkLabel()
+        Panel1 = New Panel()
+        Label6 = New Label()
+        Panel1.SuspendLayout()
         SuspendLayout()
         ' 
         ' lblUsername
@@ -142,6 +145,29 @@ Partial Class LoginForm
         LinkLabel1.TabStop = True
         LinkLabel1.Text = "sign up"
         ' 
+        ' Panel1
+        ' 
+        Panel1.BackColor = Color.Transparent
+        Panel1.BackgroundImage = My.Resources.Resources.NAME
+        Panel1.Controls.Add(Label6)
+        Panel1.Dock = DockStyle.Top
+        Panel1.Location = New Point(0, 0)
+        Panel1.Name = "Panel1"
+        Panel1.Size = New Size(720, 43)
+        Panel1.TabIndex = 6
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.BackColor = Color.Transparent
+        Label6.Font = New Font("Segoe UI Black", 26.25F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label6.ForeColor = SystemColors.Control
+        Label6.Location = New Point(260, -2)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(205, 47)
+        Label6.TabIndex = 1
+        Label6.Text = "InfoBridge"
+        ' 
         ' LoginForm
         ' 
         AutoScaleMode = AutoScaleMode.None
@@ -150,6 +176,7 @@ Partial Class LoginForm
         BackgroundImageLayout = ImageLayout.None
         ClientSize = New Size(720, 480)
         ControlBox = False
+        Controls.Add(Panel1)
         Controls.Add(LinkLabel1)
         Controls.Add(Bt_Login)
         Controls.Add(Guna2TextBox2)
@@ -160,6 +187,8 @@ Partial Class LoginForm
         FormBorderStyle = FormBorderStyle.None
         Name = "LoginForm"
         StartPosition = FormStartPosition.CenterScreen
+        Panel1.ResumeLayout(False)
+        Panel1.PerformLayout()
         ResumeLayout(False)
     End Sub
 
@@ -169,4 +198,6 @@ Partial Class LoginForm
     Friend WithEvents Guna2TextBox2 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Bt_Login As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents Panel1 As Panel
+    Friend WithEvents Label6 As Label
 End Class

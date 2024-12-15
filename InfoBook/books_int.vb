@@ -1,4 +1,6 @@
 ﻿Imports Azure.Core.HttpHeader
+Imports Microsoft.Data.SqlClient
+
 
 Public Class books_int
     Private booksDetailForm As BookDetails
@@ -9,6 +11,39 @@ Public Class books_int
         Dim bauthor As String = "Teodoro A. Agoncillo"
         Dim pDate As String = "1960"
         Dim desc As String = "Teodoro Agoncillo’s Philippine History is one of the most widely used textbooks in Philippine education, covering the historical development of the Philippines from pre-colonial times to the modern era. It highlights key events, figures, and social movements that shaped the nation's history, including the arrival of the Spaniards, the Philippine Revolution, and the country's journey to independence."
+
+
+
+        Dim bookId As Integer = 2004
+
+        Dim connectionString As String = "Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True"
+        Dim sqlQuery As String = "SELECT col_status FROM tbl_Books WHERE col_Id = @bookId"
+        Dim status As Integer = -1
+
+        Using connection As New SqlConnection(connectionString)
+            Try
+                connection.Open()
+                Using command As New SqlCommand(sqlQuery, connection)
+                    command.Parameters.AddWithValue("@bookId", bookId)
+
+                    status = Convert.ToInt32(command.ExecuteScalar())
+                End Using
+            Catch ex As Exception
+                MessageBox.Show("Error checking book status: " & ex.Message)
+                Return
+            End Try
+        End Using
+
+        If status = 0 Then
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        End If
+
+
+
+
+
+
 
         If booksDetailForm Is Nothing OrElse booksDetailForm.IsDisposed Then
             booksDetailForm = New BookDetails()
@@ -115,5 +150,10 @@ Public Class books_int
         End If
         booksDetailForm.UpdateText5(Bname5, bauthor5, pDate5, desc5)
     End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs)
+
+    End Sub
 End Class
+
 

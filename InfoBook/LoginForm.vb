@@ -10,11 +10,6 @@ Public Class LoginForm
 
         Dim Sql As New sqlConnect
 
-        If Sql.HasConnectionAccounts() = True Then
-            MsgBox("Connection to Accounts DB successful!")
-        Else
-            MsgBox("Connection to Accounts DB failed.")
-        End If
     End Sub
 
     Private Sub Bt_Login_Click(sender As Object, e As EventArgs) Handles Bt_Login.Click
@@ -61,7 +56,7 @@ Public Class LoginForm
 
                 ElseIf resultMember > 0 Then
                     MessageBox.Show("Login successful as Member!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
-                    Dim BookMemForm As New BookDetails()
+                    Dim BookMemForm As New mems()
                     BookMemForm.ShowDialog()
                     Me.Hide()
 
@@ -78,5 +73,11 @@ Public Class LoginForm
                 End If
             End Try
         End Using
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+        Me.Hide()
+        SignUp.Show()
+
     End Sub
 End Class

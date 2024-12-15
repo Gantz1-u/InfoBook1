@@ -106,13 +106,14 @@ Partial Class books_int
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = SystemColors.ActiveBorder
+        Guna2Button1.Dock = DockStyle.Fill
+        Guna2Button1.FillColor = SystemColors.ControlLight
         Guna2Button1.Font = New Font("Segoe UI", 9F)
         Guna2Button1.ForeColor = Color.White
-        Guna2Button1.Location = New Point(34, 0)
+        Guna2Button1.Location = New Point(0, 0)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2
-        Guna2Button1.Size = New Size(185, 142)
+        Guna2Button1.Size = New Size(219, 142)
         Guna2Button1.TabIndex = 1
         ' 
         ' Panel2
@@ -143,7 +144,7 @@ Partial Class books_int
         Guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button2.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button2.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button2.FillColor = SystemColors.ActiveBorder
+        Guna2Button2.FillColor = SystemColors.Control
         Guna2Button2.Font = New Font("Segoe UI", 9F)
         Guna2Button2.ForeColor = Color.White
         Guna2Button2.Location = New Point(34, 0)
@@ -180,7 +181,7 @@ Partial Class books_int
         Guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button3.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button3.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button3.FillColor = SystemColors.ActiveBorder
+        Guna2Button3.FillColor = SystemColors.ControlLight
         Guna2Button3.Font = New Font("Segoe UI", 9F)
         Guna2Button3.ForeColor = Color.White
         Guna2Button3.Location = New Point(34, 0)
@@ -217,7 +218,7 @@ Partial Class books_int
         Guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button4.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button4.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button4.FillColor = SystemColors.ActiveBorder
+        Guna2Button4.FillColor = SystemColors.ControlLight
         Guna2Button4.Font = New Font("Segoe UI", 9F)
         Guna2Button4.ForeColor = Color.White
         Guna2Button4.Location = New Point(34, 0)
@@ -254,7 +255,7 @@ Partial Class books_int
         Guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button5.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button5.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button5.FillColor = SystemColors.ActiveBorder
+        Guna2Button5.FillColor = SystemColors.ControlLight
         Guna2Button5.Font = New Font("Segoe UI", 9F)
         Guna2Button5.ForeColor = Color.White
         Guna2Button5.Location = New Point(34, 0)
@@ -291,7 +292,7 @@ Partial Class books_int
         Guna2Button6.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button6.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button6.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button6.FillColor = SystemColors.ActiveBorder
+        Guna2Button6.FillColor = SystemColors.ControlLight
         Guna2Button6.Font = New Font("Segoe UI", 9F)
         Guna2Button6.ForeColor = Color.White
         Guna2Button6.Location = New Point(34, 0)
@@ -421,7 +422,7 @@ Partial Class books_int
         AutoSizeMode = AutoSizeMode.GrowAndShrink
         BackColor = Color.FromArgb(CByte(168), CByte(131), CByte(93))
         BackgroundImage = My.Resources.Resources.Returndetails
-        ClientSize = New Size(740, 478)
+        ClientSize = New Size(739, 480)
         ControlBox = False
         Controls.Add(Button6)
         Controls.Add(Guna2TextBox1)

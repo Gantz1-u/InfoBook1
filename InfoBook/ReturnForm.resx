@@ -121,7 +121,7 @@
   <data name="PNL_Return2ndPage.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAvwAAAKWCAYAAAA1N02zAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAUghJREFUeF7t3fmTHedh3+v7d6Ru3apbqcoPN1VJVVY7jnPtxL6J7MRarM1WbMmW
+        wAAADsABataJCQAAUghJREFUeF7t3fmTHedh3+v7d6Ru3apbqcoPN1VJVVY7jnPtxL6J7MRarM1WbMmW
         LMnabNmSLJEUd3GnuBMkQGwkQYI79n0HZgAMBgOS4r4TXEASIPYdGLz3ffv0gEOoJQ3QZzD99nm+yROA
         IDEzR6k68+k+fXr+j5/8yb8NAABAOwl+AABoMcEPAAAtJvgBAKDFBD8AALSY4AcAgBYT/AAA0GKCHwAA
         WkzwAwBAiwl+AABoMcEPAAAtJvgBAKDFBD8AALSY4AcAgBYT/AAA0GKCHwAAWkzwAwBAiwl+AABoMcEP
@@ -477,7 +477,7 @@
   <data name="PNL_BookDescription.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAvwAAAKWCAYAAAA1N02zAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAAH25JREFUeF7t3X2XXVd92PG+jWIcTCEQ2sKieIU0IS1htYUsVupACsE2foLQekGT
+        vgAADr4B6kKxwAAAH25JREFUeF7t3X2XXVd92PG+jWIcTCEQ2sKieIU0IS1htYUsVupACsE2foLQekGT
         hgSKsWxLlm3ZlmzJepx7r6x5ntGj9SxjsPPedvY+Z19Jlu+sY2RrZvZPnz8+6z7MHc29x/7ju/fZZ99/
         8/QD9ycAACAmwQ8AAIEJfgAACEzwAwBAYIIfAAACE/wAABCY4AcAgMAEPwAABCb4AQAgMMEPAACBCX4A
         AAhM8AMAQGCCHwAAAhP8AAAQmOAHAIDABD8AAAQm+AEAIDDBDwAAgQl+AAAITPADAEBggh8AAAIT/AAA
@@ -617,7 +617,7 @@
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAABDgAAALQCAYAAAB118BaAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wQAADsEBuJFr7QAAdDZJREFUeF7t/QmcXNdhH+jKlq3kZZI3kzczeb9kJuPM/F7iZBInk9iKF1leZMvy
+        wAAADsABataJCQAAdDZJREFUeF7t/QmcXNdhH+jKlq3kZZI3kzczeb9kJuPM/F7iZBInk9iKF1leZMvy
         JlmyrdWmFpuSKdHaJVqiuAEkAO4SKYqLSIo7xVUiKVLcN2yNlSD2hQC6se/djb338+6pLrAawAXQALoa
         dc/5/vLn7q6utYk6depf5977lo/9+r8NAAAAAFWm4AAAAAAqT8EBAAAAVJ6CAwAAAKg8BQcAAABQeQoO
         AAAAoPIUHAAAAEDlKTgAAACAylNwAAAAAJWn4AAAAAAqT8EBAAAAVJ6CAwDGwdnv/m/h6x/9w3D+J/4s
