@@ -12,19 +12,21 @@ Public Class books_int
         Dim pDate As String = "1960"
         Dim desc As String = "Teodoro Agoncillo’s Philippine History is one of the most widely used textbooks in Philippine education, covering the historical development of the Philippines from pre-colonial times to the modern era. It highlights key events, figures, and social movements that shaped the nation's history, including the arrival of the Spaniards, the Philippine Revolution, and the country's journey to independence."
 
+        Dim bookId As Integer = 15
 
-
-        Dim bookId As Integer = 2004
+        Guna2Button1.Tag = bookId
 
         Dim connectionString As String = "Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True"
         Dim sqlQuery As String = "SELECT col_status FROM tbl_Books WHERE col_Id = @bookId"
         Dim status As Integer = -1
+
 
         Using connection As New SqlConnection(connectionString)
             Try
                 connection.Open()
                 Using command As New SqlCommand(sqlQuery, connection)
                     command.Parameters.AddWithValue("@bookId", bookId)
+
 
                     status = Convert.ToInt32(command.ExecuteScalar())
                 End Using
@@ -34,16 +36,14 @@ Public Class books_int
             End Try
         End Using
 
+
         If status = 0 Then
+            Guna2Button1.FillColor = Color.Gray
             MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
+        ElseIf status > 0 Then
+            Guna2Button1.FillColor = SystemColors.Control
         End If
-
-
-
-
-
-
 
         If booksDetailForm Is Nothing OrElse booksDetailForm.IsDisposed Then
             booksDetailForm = New BookDetails()
@@ -58,11 +58,46 @@ Public Class books_int
         booksDetailForm.UpdateText(Bname, bauthor, pDate, desc)
     End Sub
 
+
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         Dim Bname1 As String = "49 Laws Of Power"
         Dim bauthor1 As String = "Robert Greene"
         Dim pDate1 As String = "1988"
         Dim desc1 As String = "This book distills centuries of wisdom from historical leaders, strategists, and philosophers into 48 laws for achieving and maintaining power. It offers lessons on strategy, manipulation, and self-control, making it a controversial yet widely-read guide for those navigating power dynamics in life and business."
+
+        Dim bookId As Integer = 9
+
+        Guna2Button2.Tag = bookId
+
+
+        Dim connectionString As String = "Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True"
+        Dim sqlQuery As String = "SELECT col_status FROM tbl_Books WHERE col_Id = @bookId"
+        Dim status As Integer = -1
+
+
+        Using connection As New SqlConnection(connectionString)
+            Try
+                connection.Open()
+                Using command As New SqlCommand(sqlQuery, connection)
+                    command.Parameters.AddWithValue("@bookId", bookId)
+
+
+                    status = Convert.ToInt32(command.ExecuteScalar())
+                End Using
+            Catch ex As Exception
+                MessageBox.Show("Error checking book status: " & ex.Message)
+                Return
+            End Try
+        End Using
+
+
+        If status = 0 Then
+            Guna2Button2.FillColor = Color.Gray
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        ElseIf status > 0 Then
+            Guna2Button2.FillColor = SystemColors.Control
+        End If
 
         If booksDetailForm Is Nothing OrElse booksDetailForm.IsDisposed Then
             booksDetailForm = New BookDetails()
@@ -83,6 +118,43 @@ Public Class books_int
         Dim bauthor2 As String = "Nicole Forsgren, Jez Humble, and Gene Kim"
         Dim pDate2 As String = "2018"
         Dim desc2 As String = "This book examines the science behind high-performing software development and IT teams, based on extensive research. It explores metrics that predict success, practices that lead to efficiency, and how organizations can implement DevOps and Lean principles to scale effectively. It's essential reading for anyone in technology looking to improve delivery performance and organizational outcomes."
+
+
+        Dim bookId As Integer = 11
+
+
+        Guna2Button3.Tag = bookId
+
+
+        Dim connectionString As String = "Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True"
+        Dim sqlQuery As String = "SELECT col_status FROM tbl_Books WHERE col_Id = @bookId"
+        Dim status As Integer = -1
+
+
+        Using connection As New SqlConnection(connectionString)
+            Try
+                connection.Open()
+                Using command As New SqlCommand(sqlQuery, connection)
+                    command.Parameters.AddWithValue("@bookId", bookId)
+
+
+                    status = Convert.ToInt32(command.ExecuteScalar())
+                End Using
+            Catch ex As Exception
+                MessageBox.Show("Error checking book status: " & ex.Message)
+                Return
+            End Try
+        End Using
+
+
+        If status = 0 Then
+            Guna2Button3.FillColor = Color.Gray
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            Return
+        ElseIf status > 0 Then
+            Guna2Button3.FillColor = SystemColors.Control
+        End If
+
 
         If booksDetailForm Is Nothing OrElse booksDetailForm.IsDisposed Then
             booksDetailForm = New BookDetails()
