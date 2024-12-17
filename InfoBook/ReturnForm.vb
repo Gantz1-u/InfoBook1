@@ -24,7 +24,7 @@ Public Class ReturnForm
             Return
         End If
 
-        Dim query As String = "INSERT INTO dbo.tbl_return (col_returnerName, col_bookName, col_Issue) VALUES (@BorrowerName, @BookName, @Issue)"
+        Dim query As String = "INSERT INTO dbo.tbl_return (col_returnerName, col_bookName, col_Issue)" & " VALUES (@BorrowerName, @BookName, @Issue)"
 
         Using command As New SqlCommand(query, sqlConnect1)
             command.Parameters.AddWithValue("@BorrowerName", borrowerName)
@@ -38,7 +38,7 @@ Public Class ReturnForm
 
                 command.ExecuteNonQuery()
 
-                MessageBox.Show("Borrow data has been successfully saved!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                MessageBox.Show("Returned Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
             Catch ex As Exception
                 MessageBox.Show($"An error occurred while saving data: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error)

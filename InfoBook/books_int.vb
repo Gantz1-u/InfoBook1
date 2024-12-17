@@ -6,6 +6,12 @@ Public Class books_int
     Private booksDetailForm As BookDetails
     Public Event Swap(sender As Object, e As EventArgs)
     Private return1 As ReturnForm
+    Private p1 As books_p1
+    Private p2 As books_p2
+    Private p3 As books_p3
+    Private p4 As books_p4
+
+
 
     Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
         Dim Bname As String = "Philippine History"
@@ -111,18 +117,7 @@ Public Class books_int
 
         If status = 0 Then
             Guna2Button2.FillColor = Color.Gray
-            MessageBox.Show("The book is already borrowed.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-
-
-            If return1 Is Nothing OrElse booksDetailForm.IsDisposed Then
-                return1 = New ReturnForm()
-                return1.MdiParent = Me.MdiParent
-                return1.FormBorderStyle = FormBorderStyle.None
-                return1.Dock = DockStyle.Fill
-                return1.Show()
-            Else
-                return1.BringToFront()
-            End If
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         ElseIf status > 0 Then
             Guna2Button2.FillColor = SystemColors.Control
@@ -179,18 +174,7 @@ Public Class books_int
 
         If status = 0 Then
             Guna2Button3.FillColor = Color.Gray
-            MessageBox.Show("The book is already borrowed.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-
-
-            If return1 Is Nothing OrElse booksDetailForm.IsDisposed Then
-                return1 = New ReturnForm()
-                return1.MdiParent = Me.MdiParent
-                return1.FormBorderStyle = FormBorderStyle.None
-                return1.Dock = DockStyle.Fill
-                return1.Show()
-            Else
-                return1.BringToFront()
-            End If
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         ElseIf status > 0 Then
             Guna2Button3.FillColor = SystemColors.Control
@@ -214,7 +198,7 @@ Public Class books_int
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs) Handles Guna2Button4.Click
         Dim Bname3 As String = "Geology For Dummies"
-        Dim bauthor3 As String = "Alecia M. Spooner"
+        Dim bauthor3 As String = " Alecia M. Spooner"
         Dim pDate3 As String = "2011"
         Dim desc3 As String = " This beginner-friendly guide introduces the fundamental concepts of geology, including Earth’s structure, rock types, plate tectonics, and geological processes like erosion and earthquakes. With simple explanations and practical examples, it’s perfect for students, enthusiasts, or anyone curious about the science of Earth."
         Dim pic3 As Image = My.Resources.Resources.geology_dummies
@@ -246,18 +230,7 @@ Public Class books_int
 
         If status = 0 Then
             Guna2Button4.FillColor = Color.Gray
-            MessageBox.Show("The book is already borrowed.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-
-
-            If return1 Is Nothing OrElse booksDetailForm.IsDisposed Then
-                return1 = New ReturnForm()
-                return1.MdiParent = Me.MdiParent
-                return1.FormBorderStyle = FormBorderStyle.None
-                return1.Dock = DockStyle.Fill
-                return1.Show()
-            Else
-                return1.BringToFront()
-            End If
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         ElseIf status > 0 Then
             Guna2Button4.FillColor = SystemColors.Control
@@ -320,18 +293,7 @@ Public Class books_int
 
         If status = 0 Then
             Guna2Button5.FillColor = Color.Gray
-            MessageBox.Show("The book is already borrowed.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-
-
-            If return1 Is Nothing OrElse booksDetailForm.IsDisposed Then
-                return1 = New ReturnForm()
-                return1.MdiParent = Me.MdiParent
-                return1.FormBorderStyle = FormBorderStyle.None
-                return1.Dock = DockStyle.Fill
-                return1.Show()
-            Else
-                return1.BringToFront()
-            End If
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         ElseIf status > 0 Then
             Guna2Button5.FillColor = SystemColors.Control
@@ -362,7 +324,7 @@ Public Class books_int
 
         Dim bookId As Integer = 14
 
-        Guna2Button3.Tag = bookId
+        Guna2Button6.Tag = bookId
 
         Dim connectionString As String = "Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True"
         Dim sqlQuery As String = "SELECT col_status FROM tbl_Books WHERE col_Id = @bookId"
@@ -387,18 +349,7 @@ Public Class books_int
 
         If status = 0 Then
             Guna2Button6.FillColor = Color.Gray
-            MessageBox.Show("The book is already borrowed.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-
-
-            If return1 Is Nothing OrElse booksDetailForm.IsDisposed Then
-                return1 = New ReturnForm()
-                return1.MdiParent = Me.MdiParent
-                return1.FormBorderStyle = FormBorderStyle.None
-                return1.Dock = DockStyle.Fill
-                return1.Show()
-            Else
-                return1.BringToFront()
-            End If
+            MessageBox.Show("The book is unavailable.", "Book Unavailable", MessageBoxButtons.OK, MessageBoxIcon.Warning)
             Return
         ElseIf status > 0 Then
             Guna2Button6.FillColor = SystemColors.Control
@@ -433,6 +384,94 @@ Public Class books_int
 
     Private Sub PictureBox1_Click_1(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        If p1 Is Nothing OrElse p1.IsDisposed Then
+            p1 = New books_p1()
+            p1.MdiParent = Me.MdiParent
+            p1.FormBorderStyle = FormBorderStyle.None
+            p1.Dock = DockStyle.Fill
+            p1.Show()
+            p1.Button2.BackColor = Color.FromArgb(64, 64, 64)
+
+        Else
+            p1.BringToFront()
+        End If
+    End Sub
+
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
+        If p1 Is Nothing OrElse p1.IsDisposed Then
+            p1 = New books_p1()
+            p1.MdiParent = Me.MdiParent
+            p1.FormBorderStyle = FormBorderStyle.None
+            p1.Dock = DockStyle.Fill
+            p1.Show()
+            p1.Button2.BackColor = Color.FromArgb(64, 64, 64)
+
+        Else
+            p1.BringToFront()
+        End If
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        If p4 Is Nothing OrElse p4.IsDisposed Then
+            p4 = New books_p4()
+            p4.MdiParent = Me.MdiParent
+            p4.FormBorderStyle = FormBorderStyle.None
+            p4.Dock = DockStyle.Fill
+            p4.Show()
+            p4.Button4.BackColor = Color.FromArgb(64, 64, 64)
+
+        Else
+            p4.BringToFront()
+        End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If p2 Is Nothing OrElse p2.IsDisposed Then
+            p2 = New books_p2()
+            p2.MdiParent = Me.MdiParent
+            p2.FormBorderStyle = FormBorderStyle.None
+            p2.Dock = DockStyle.Fill
+            p2.Show()
+            p2.Button3.BackColor = Color.FromArgb(64, 64, 64)
+
+        Else
+            p2.BringToFront()
+        End If
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        If p3 Is Nothing OrElse p3.IsDisposed Then
+            p3 = New books_p3()
+            p3.MdiParent = Me.MdiParent
+            p3.FormBorderStyle = FormBorderStyle.None
+            p3.Dock = DockStyle.Fill
+            p3.Show()
+            p3.Button1.BackColor = Color.FromArgb(64, 64, 64)
+
+        Else
+            p3.BringToFront()
+        End If
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        If p4 Is Nothing OrElse p4.IsDisposed Then
+            p4 = New books_p4()
+            p4.MdiParent = Me.MdiParent
+            p4.FormBorderStyle = FormBorderStyle.None
+            p4.Dock = DockStyle.Fill
+            p4.Show()
+            p4.Button4.BackColor = Color.FromArgb(64, 64, 64)
+
+        Else
+            p4.BringToFront()
+        End If
     End Sub
 End Class
 

@@ -15,6 +15,7 @@ Public Class LoginForm
     Private Sub Bt_Login_Click(sender As Object, e As EventArgs) Handles Bt_Login.Click
         Dim EnteredUsername As String = Guna2TextBox1.Text
         Dim EnteredPassword As String = Guna2TextBox2.Text
+        Me.Hide()
 
         If String.IsNullOrWhiteSpace(EnteredUsername) OrElse String.IsNullOrWhiteSpace(EnteredPassword) Then
             MessageBox.Show("Please enter both username and password.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)

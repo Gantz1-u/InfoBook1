@@ -17,6 +17,7 @@ Public Class SignUp
     End Sub
 
     Private Sub Bt_SignIn_Click(sender As Object, e As EventArgs) Handles Bt_SignIn.Click
+        Me.Hide()
 
         Dim Lname As String = Guna2TextBox1.Text.Trim()
         Dim Fname As String = Guna2TextBox2.Text.Trim()

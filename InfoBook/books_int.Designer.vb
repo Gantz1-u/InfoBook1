@@ -303,80 +303,101 @@ Partial Class books_int
         ' 
         ' Button7
         ' 
-        Button7.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button7.BackColor = SystemColors.ControlDark
+        Button7.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button7.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button7.FlatStyle = FlatStyle.Flat
         Button7.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button7.Location = New Point(123, 432)
         Button7.Name = "Button7"
         Button7.Size = New Size(43, 30)
         Button7.TabIndex = 10
         Button7.Text = "<"
-        Button7.UseVisualStyleBackColor = True
+        Button7.UseVisualStyleBackColor = False
         ' 
         ' Button8
         ' 
-        Button8.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button8.BackColor = SystemColors.ControlDark
+        Button8.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button8.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button8.FlatStyle = FlatStyle.Flat
         Button8.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button8.Location = New Point(196, 432)
         Button8.Name = "Button8"
         Button8.Size = New Size(43, 30)
         Button8.TabIndex = 11
         Button8.Text = "1"
-        Button8.UseVisualStyleBackColor = True
+        Button8.UseVisualStyleBackColor = False
         ' 
         ' Button1
         ' 
-        Button1.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button1.BackColor = SystemColors.ControlDark
+        Button1.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button1.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button1.Location = New Point(402, 432)
         Button1.Name = "Button1"
         Button1.Size = New Size(43, 30)
         Button1.TabIndex = 12
         Button1.Text = "4"
-        Button1.UseVisualStyleBackColor = True
+        Button1.UseVisualStyleBackColor = False
         ' 
         ' Button2
         ' 
-        Button2.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button2.BackColor = SystemColors.ControlDark
+        Button2.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button2.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button2.FlatStyle = FlatStyle.Flat
         Button2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button2.Location = New Point(261, 432)
         Button2.Name = "Button2"
         Button2.Size = New Size(43, 30)
         Button2.TabIndex = 12
         Button2.Text = "2"
-        Button2.UseVisualStyleBackColor = True
+        Button2.UseVisualStyleBackColor = False
         ' 
         ' Button3
         ' 
-        Button3.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button3.BackColor = SystemColors.ControlDark
+        Button3.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button3.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button3.FlatStyle = FlatStyle.Flat
         Button3.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button3.Location = New Point(330, 432)
         Button3.Name = "Button3"
         Button3.Size = New Size(43, 30)
         Button3.TabIndex = 13
         Button3.Text = "3"
-        Button3.UseVisualStyleBackColor = True
+        Button3.UseVisualStyleBackColor = False
         ' 
         ' Button4
         ' 
-        Button4.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button4.BackColor = SystemColors.ControlDark
+        Button4.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button4.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button4.FlatStyle = FlatStyle.Flat
         Button4.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button4.Location = New Point(471, 432)
         Button4.Name = "Button4"
         Button4.Size = New Size(43, 30)
         Button4.TabIndex = 14
         Button4.Text = "5"
-        Button4.UseVisualStyleBackColor = True
+        Button4.UseVisualStyleBackColor = False
         ' 
         ' Button5
         ' 
-        Button5.FlatAppearance.MouseDownBackColor = SystemColors.ControlDark
+        Button5.BackColor = SystemColors.ControlDark
+        Button5.FlatAppearance.MouseDownBackColor = SystemColors.ControlDarkDark
+        Button5.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
+        Button5.FlatStyle = FlatStyle.Flat
         Button5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Button5.Location = New Point(532, 432)
         Button5.Name = "Button5"
         Button5.Size = New Size(43, 30)
         Button5.TabIndex = 15
         Button5.Text = ">"
-        Button5.UseVisualStyleBackColor = True
+        Button5.UseVisualStyleBackColor = False
         ' 
         ' Guna2TextBox1
         ' 

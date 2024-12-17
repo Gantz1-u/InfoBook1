@@ -33,7 +33,7 @@ Public Class Borrow
             Return
         End If
 
-        Dim query As String = "INSERT INTO dbo.tbl_borrowData (col_borrowerName, col_bookName, col_email, col_course, col_studentNum) " & "VALUES (@BorrowerName, @BookName,@Issue)"
+        Dim query As String = "INSERT INTO dbo.tbl_borrowData (col_borrowerName, col_bookName, col_email, col_course, col_studentNum) " & "VALUES (@BorrowerName, @BookName,@Email, @Course, @StudentNumber)"
 
         Using command As New SqlCommand(query, sqlConnect1)
             command.Parameters.AddWithValue("@BorrowerName", borrowerName)
@@ -49,7 +49,7 @@ Public Class Borrow
 
                 command.ExecuteNonQuery()
 
-                MessageBox.Show("Borrow data has been successfully saved!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                MessageBox.Show("Borrowed Successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
             Catch ex As Exception
                 MessageBox.Show($"An error occurred while saving data: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error)

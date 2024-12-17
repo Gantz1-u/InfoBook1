@@ -45,7 +45,6 @@ Partial Class Borrow
         Label4 = New Label()
         Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
         Label5 = New Label()
-        ComboBox1 = New ComboBox()
         SuspendLayout()
         ' 
         ' Guna2Button1
@@ -247,21 +246,12 @@ Partial Class Borrow
         Label5.Text = "Student No:"
         Label5.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' ComboBox1
-        ' 
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Location = New Point(258, 17)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(121, 23)
-        ComboBox1.TabIndex = 14
-        ' 
         ' Borrow
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.Returndetails
         ClientSize = New Size(800, 450)
-        Controls.Add(ComboBox1)
         Controls.Add(Guna2TextBox5)
         Controls.Add(Label5)
         Controls.Add(Guna2TextBox4)
@@ -291,5 +281,4 @@ Partial Class Borrow
     Friend WithEvents Label4 As Label
     Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents ComboBox1 As ComboBox
 End Class

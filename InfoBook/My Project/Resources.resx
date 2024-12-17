@@ -118,11 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="hitler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hitler.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Addbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Addbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="49laws of power" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\49laws of power.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="criminal minds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\criminal minds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="returnbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\returnbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,8 +139,8 @@
   <data name="History" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\History.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Untitled design (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Untitled design (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="foresst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foresst.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="manageint1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\manageint1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,14 +154,23 @@
   <data name="memberint" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\memberint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="reportedbooklist1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reportedbooklist1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kapitan sino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kapitan sino.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logout" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="JoseRizal LifeWorks" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\JoseRizal LifeWorks.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled design (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled design (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="macartur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\macartur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="book unavailable1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book unavailable1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,14 +184,20 @@
   <data name="accelaerate" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\accelaerate.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Borrowersinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Borrowersinfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="removebookdetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\removebookdetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ManageInt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ManageInt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reportedbooks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reportedbooks.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Elfi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elfi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Untitled design" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,14 +208,29 @@
   <data name="reportedbooklist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reportedbooklist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="fangirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fangirl.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="principles_of_geo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\principles_of_geo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="removebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\removebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="richdad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\richdad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Borrowersinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Borrowersinfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reportedbooks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reportedbooks1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="geology dummies" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\geology dummies.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ibong Adarna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ibong Adarna.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ph history" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ph history.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,17 +238,29 @@
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Borrowed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Borrowed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="florante at laura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\florante at laura.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Abanakakapagbasanapalaako" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abanakakapagbasanapalaako.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Biag ni lam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biag ni lam.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flipped" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flipped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BookDescription" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BookDescription.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="info_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Returndetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Returndetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="removebookdetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\removebookdetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="why we sleep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\why we sleep.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="borrowbookmember" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borrowbookmember.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -220,19 +268,25 @@
   <data name="Borrowersinfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Borrowersinfo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NoliMeTangere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NoliMeTangere.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="termsandconditions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\termsandconditions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ManageInt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ManageInt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Borrowed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Borrowed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="reportedbooks1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\reportedbooks1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enginneer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enginneer.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BorrowDetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BorrowDetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="JoseRizal LifeWorks" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\JoseRizal LifeWorks.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dogeaters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dogeaters.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

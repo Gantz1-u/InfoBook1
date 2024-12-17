@@ -6,6 +6,7 @@ Public Class BooksAdmin1
     Public Event Swap As EventHandler
     Private Return1 As ReturnForm
     Public form3 As New BookDetails()
+    Private logut1 As logut
 
     Private Sub BooksAdmin1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.IsMdiContainer = True
@@ -13,6 +14,8 @@ Public Class BooksAdmin1
 
 
     Private Sub Bt_Book_Click(sender As Object, e As EventArgs) Handles Bt_Book.Click
+
+
         If books1 Is Nothing OrElse books1.IsDisposed Then
             books1 = New books_int
 
@@ -44,8 +47,18 @@ Public Class BooksAdmin1
     End Sub
 
     Private Sub Bt_logout_Click(sender As Object, e As EventArgs) Handles Bt_logout.Click
-        Me.Hide()
-        LoginForm.Show()
+
+        If logut1 Is Nothing OrElse logut1.IsDisposed Then
+            logut1 = New logut()
+
+            logut1.MdiParent = Me
+            logut1.FormBorderStyle = FormBorderStyle.None
+            logut1.Dock = DockStyle.Fill
+
+            logut1.Show()
+        Else
+            logut1.BringToFront()
+        End If
     End Sub
 
     Private Sub Bt_Return_Click(sender As Object, e As EventArgs)
@@ -69,6 +82,12 @@ Public Class BooksAdmin1
         Else
             books1.BringToFront()
         End If
+
+    End Sub
+
+    Private Sub Guna2Button3_Click(sender As Object, e As EventArgs)
+        Hide()
+        LoginForm.Show()
 
     End Sub
 End Class
