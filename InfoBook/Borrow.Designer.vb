@@ -45,6 +45,7 @@ Partial Class Borrow
         Label4 = New Label()
         Guna2TextBox5 = New Guna.UI2.WinForms.Guna2TextBox()
         Label5 = New Label()
+        ComboBox1 = New ComboBox()
         SuspendLayout()
         ' 
         ' Guna2Button1
@@ -56,7 +57,7 @@ Partial Class Borrow
         Guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray
         Guna2Button1.DisabledState.FillColor = Color.FromArgb(CByte(169), CByte(169), CByte(169))
         Guna2Button1.DisabledState.ForeColor = Color.FromArgb(CByte(141), CByte(141), CByte(141))
-        Guna2Button1.FillColor = SystemColors.ControlDark
+        Guna2Button1.FillColor = SystemColors.Control
         Guna2Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         Guna2Button1.ForeColor = Color.Black
         Guna2Button1.Location = New Point(278, 400)
@@ -71,6 +72,7 @@ Partial Class Borrow
         Label1.AutoSize = True
         Label1.BackColor = Color.Transparent
         Label1.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label1.ForeColor = SystemColors.Control
         Label1.Location = New Point(70, 64)
         Label1.Name = "Label1"
         Label1.Size = New Size(74, 30)
@@ -129,6 +131,7 @@ Partial Class Borrow
         Label2.AutoSize = True
         Label2.BackColor = Color.Transparent
         Label2.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label2.ForeColor = SystemColors.Control
         Label2.Location = New Point(21, 133)
         Label2.Name = "Label2"
         Label2.Size = New Size(126, 30)
@@ -164,6 +167,7 @@ Partial Class Borrow
         Label3.AutoSize = True
         Label3.BackColor = Color.Transparent
         Label3.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label3.ForeColor = SystemColors.Control
         Label3.Location = New Point(73, 204)
         Label3.Name = "Label3"
         Label3.Size = New Size(68, 30)
@@ -199,6 +203,7 @@ Partial Class Borrow
         Label4.AutoSize = True
         Label4.BackColor = Color.Transparent
         Label4.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label4.ForeColor = SystemColors.Control
         Label4.Location = New Point(59, 275)
         Label4.Name = "Label4"
         Label4.Size = New Size(82, 30)
@@ -234,6 +239,7 @@ Partial Class Borrow
         Label5.AutoSize = True
         Label5.BackColor = Color.Transparent
         Label5.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Label5.ForeColor = SystemColors.Control
         Label5.Location = New Point(24, 337)
         Label5.Name = "Label5"
         Label5.Size = New Size(123, 30)
@@ -241,12 +247,21 @@ Partial Class Borrow
         Label5.Text = "Student No:"
         Label5.TextAlign = ContentAlignment.MiddleCenter
         ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.FormattingEnabled = True
+        ComboBox1.Location = New Point(258, 17)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(121, 23)
+        ComboBox1.TabIndex = 14
+        ' 
         ' Borrow
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackgroundImage = My.Resources.Resources.Returndetails
         ClientSize = New Size(800, 450)
+        Controls.Add(ComboBox1)
         Controls.Add(Guna2TextBox5)
         Controls.Add(Label5)
         Controls.Add(Guna2TextBox4)
@@ -276,4 +291,5 @@ Partial Class Borrow
     Friend WithEvents Label4 As Label
     Friend WithEvents Guna2TextBox5 As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents Label5 As Label
+    Friend WithEvents ComboBox1 As ComboBox
 End Class

@@ -1,10 +1,21 @@
-﻿Imports Microsoft.Data.SqlClient
+﻿Imports Guna.UI2.WinForms
+Imports Microsoft.Data.SqlClient
 
 
 Public Class BookDetails
     Private BORROW As Borrow
     Private sqlConnect1 As SqlConnection
-    Private isBooksVisible As Boolean = False
+
+    Private Sub BookDetails_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.FormBorderStyle = FormBorderStyle.None
+        sqlConnect1 = New SqlConnection("Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True")
+
+        Dim Sql As New sqlConnect
+
+    End Sub
+
+
+
 
     Public Sub UpdateText(Bname As String, bauthor As String, pDate As String, desc As String)
         Label1.Text = Bname
@@ -13,6 +24,26 @@ Public Class BookDetails
         RichTextBox1.Text = desc
 
     End Sub
+
+    Public Sub UpdatePicture(pic As Image)
+        PictureBox1.Image = pic
+    End Sub
+    Public Sub UpdatePicture1(pic1 As Image)
+        PictureBox1.Image = pic1
+    End Sub
+    Public Sub UpdatePicture2(pic2 As Image)
+        PictureBox1.Image = pic2
+    End Sub
+    Public Sub UpdatePicture3(pic3 As Image)
+        PictureBox1.Image = pic3
+    End Sub
+    Public Sub UpdatePicture4(pic4 As Image)
+        PictureBox1.Image = pic4
+    End Sub
+    Public Sub UpdatePicture5(pic5 As Image)
+        PictureBox1.Image = pic5
+    End Sub
+
     Public Sub UpdateText1(Bname1 As String, bauthor1 As String, pDate1 As String, desc1 As String)
         Label1.Text = Bname1
         Label2.Text = bauthor1
@@ -46,20 +77,6 @@ Public Class BookDetails
         RichTextBox1.Text = desc5
     End Sub
 
-
-
-
-
-    Private Sub BooksMemberInt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.FormBorderStyle = FormBorderStyle.None
-
-        sqlConnect1 = New SqlConnection("Server=DESKTOP-H54BSR0\SQLEXPRESS;User ID=sa;Password=12345678;Database=Books;TrustServerCertificate=True")
-
-        Dim Sql As New sqlConnect
-
-    End Sub
-
-
     Private Sub Bt_LogoutMember_Click(sender As Object, e As EventArgs)
 
 
@@ -82,7 +99,6 @@ Public Class BookDetails
     End Sub
 
     Private Sub Guna2Button4_Click(sender As Object, e As EventArgs)
-        PNL_BorrowDetails.Visible = True
 
 
     End Sub
@@ -90,99 +106,6 @@ Public Class BookDetails
 
 
 
-
-
-
-
-
-
-    Private Sub Bt_BackMember1_Click(sender As Object, e As EventArgs) Handles Bt_BackMember1.Click
-        PNL_BorrowDetails.Visible = False
-
-    End Sub
-
-    Private Sub Bt_BorrowMember_Click(sender As Object, e As EventArgs) Handles Bt_BorrowMember.Click
-        Dim borrowerName As String = Guna2TextBox2.Text.Trim()
-        Dim bookName As String = Guna2TextBox3.Text.Trim()
-        Dim email As String = Guna2TextBox4.Text.Trim()
-        Dim course As String = Guna2TextBox6.Text.Trim()
-        Dim studentNumber As String = Guna2TextBox7.Text.Trim()
-
-        If String.IsNullOrEmpty(borrowerName) OrElse
-       String.IsNullOrEmpty(bookName) OrElse
-       String.IsNullOrEmpty(email) OrElse
-       String.IsNullOrEmpty(course) OrElse
-       String.IsNullOrEmpty(studentNumber) Then
-
-            MessageBox.Show("Please fill out all fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning)
-            Return
-        End If
-
-        Dim query As String = "INSERT INTO dbo.tbl_borrowData (col_borrowerName, col_bookName, col_email, col_course, col_studentNum) " &
-                          "VALUES (@BorrowerName, @BookName, @Email, @Course, @StudentNumber)"
-
-        Using command As New SqlCommand(query, sqlConnect1)
-            command.Parameters.AddWithValue("@BorrowerName", borrowerName)
-            command.Parameters.AddWithValue("@BookName", bookName)
-            command.Parameters.AddWithValue("@Email", email)
-            command.Parameters.AddWithValue("@Course", course)
-            command.Parameters.AddWithValue("@StudentNumber", studentNumber)
-
-            Try
-                If sqlConnect1.State = ConnectionState.Closed Then
-                    sqlConnect1.Open()
-                End If
-
-                command.ExecuteNonQuery()
-
-                MessageBox.Show("Borrow data has been successfully saved!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
-
-            Catch ex As Exception
-                MessageBox.Show($"An error occurred while saving data: {ex.Message}", "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
-            Finally
-                If sqlConnect1.State = ConnectionState.Open Then
-                    sqlConnect1.Close()
-                End If
-            End Try
-        End Using
-    End Sub
-
-
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
-        PNL_TermsandCond.Visible = True
-
-    End Sub
-
-    Private Sub Bt_BackBMTND_Click(sender As Object, e As EventArgs) Handles Bt_BackBMTND.Click
-        PNL_TermsandCond.Visible = False
-
-    End Sub
-
-    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
-        PNL_TermsandCond.Visible = False
-
-
-
-    End Sub
-
-    Private Sub Bt_BooksMember_Click(sender As Object, e As EventArgs)
-
-        PNL_BorrowDetails.Visible = False
-        PNL_TermsandCond.Visible = False
-
-    End Sub
-
-    Private Sub Label1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub PNL_BorrowDetails_Paint(sender As Object, e As PaintEventArgs) Handles PNL_BorrowDetails.Paint
-
-    End Sub
-
-    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
-
-    End Sub
 
     Private Sub CheckBox1_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox1.CheckedChanged
         PNL_TermsandCond.Visible = True
@@ -191,8 +114,8 @@ Public Class BookDetails
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
         If BORROW Is Nothing OrElse BORROW.IsDisposed Then
-            BORROW = New Borrow()
-            BORROW.MdiParent = Me.MdiParent
+            BORROW = New Borrow
+            BORROW.MdiParent = MdiParent
             BORROW.FormBorderStyle = FormBorderStyle.None
             BORROW.Dock = DockStyle.Fill
             BORROW.Show()
@@ -200,6 +123,10 @@ Public Class BookDetails
             BORROW.BringToFront()
         End If
 
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
     End Sub
 End Class

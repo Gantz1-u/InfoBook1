@@ -1,66 +1,74 @@
-﻿Public Class BooksAdmin1
+﻿Imports Azure.Core.HttpHeader
+
+Public Class BooksAdmin1
+    Private books1 As books_int
+    Private bookDetails As BookDetails
+    Public Event Swap As EventHandler
+    Private Return1 As ReturnForm
+    Public form3 As New BookDetails()
+
     Private Sub BooksAdmin1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.FormBorderStyle = FormBorderStyle.None
-
-    End Sub
-    Private Sub Bt_NextP1BA_Click(sender As Object, e As EventArgs) Handles Bt_NextP1BA.Click
-        PNL_2ndpageBA.Visible = True
-
+        Me.IsMdiContainer = True
     End Sub
 
-    Private Sub Bt_BackBAP2_Click(sender As Object, e As EventArgs) Handles Bt_BackBAP2.Click
-        PNL_2ndpageBA.Visible = False
-
-        Me.Show()
-
-    End Sub
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        PNL_2ndpageBA.Visible = False
-
-        Dim AvailablebookForm As New AvailableBook()
-        AvailablebookForm.Show()
-
-        Me.Hide()
-
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        PNL_2ndpageBA.Visible = False
-
-        Dim UnavailablebookForm As New AvailableBook()
-        UnavailablebookForm.Show()
-
-        Me.Hide()
-
-
-    End Sub
-
-    Private Sub Bt_Return_Click(sender As Object, e As EventArgs) Handles Bt_Return.Click
-        Dim Returnform As New ReturnForm()
-        Returnform.Show()
-
-        Me.Hide()
-
-
-    End Sub
-
-    Private Sub Bt_Manage_Click(sender As Object, e As EventArgs) Handles Bt_Manage.Click
-        Dim manageform As New Manage()
-        manageform.Show()
-
-        Me.Hide()
-
-    End Sub
-
-    Private Sub Bt_History_Click(sender As Object, e As EventArgs) Handles Bt_History.Click
-        Dim history As New History()
-        history.Show()
-
-        Me.Hide()
-
-    End Sub
 
     Private Sub Bt_Book_Click(sender As Object, e As EventArgs) Handles Bt_Book.Click
+        If books1 Is Nothing OrElse books1.IsDisposed Then
+            books1 = New books_int
+
+            books1.MdiParent = Me
+            books1.FormBorderStyle = FormBorderStyle.None
+            books1.Dock = DockStyle.Fill
+
+            books1.Show()
+
+
+            AddHandler books1.Swap, AddressOf SwitchForm
+        Else
+            books1.BringToFront()
+        End If
+
+    End Sub
+    Private Sub SwitchForm(sender As Object, e As EventArgs)
+        If books1 IsNot Nothing AndAlso Not books1.IsDisposed Then
+            books1.Close()
+        End If
+
+        bookDetails = New BookDetails()
+
+        bookDetails.MdiParent = Me
+        bookDetails.FormBorderStyle = FormBorderStyle.None
+        bookDetails.Dock = DockStyle.Fill
+
+        bookDetails.Show()
+    End Sub
+
+    Private Sub Bt_logout_Click(sender As Object, e As EventArgs) Handles Bt_logout.Click
+        Me.Hide()
+        LoginForm.Show()
+    End Sub
+
+    Private Sub Bt_Return_Click(sender As Object, e As EventArgs)
+
+        Dim btn_return = "RETURN"
+        Dim bookDetailsForm = New BookDetails
+
+
+
+        If books1 Is Nothing OrElse books1.IsDisposed Then
+            books1 = New books_int
+
+            books1.MdiParent = Me
+            books1.FormBorderStyle = FormBorderStyle.None
+            books1.Dock = DockStyle.Fill
+
+            books1.Show()
+
+
+            AddHandler books1.Swap, AddressOf SwitchForm
+        Else
+            books1.BringToFront()
+        End If
 
     End Sub
 End Class

@@ -22,7 +22,6 @@ Partial Class books_int
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(books_int))
         Dim CustomizableEdges1 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges2 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges3 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
@@ -37,6 +36,7 @@ Partial Class books_int
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(books_int))
         Panel1 = New Panel()
         PictureBox1 = New PictureBox()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
@@ -90,7 +90,7 @@ Partial Class books_int
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), Image)
+        PictureBox1.Image = My.Resources.Resources.Ph_history
         PictureBox1.Location = New Point(0, 0)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(81, 142)
@@ -128,7 +128,7 @@ Partial Class books_int
         ' 
         ' PictureBox2
         ' 
-        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Image = My.Resources.Resources._49laws_of_power
         PictureBox2.Location = New Point(0, 0)
         PictureBox2.Name = "PictureBox2"
         PictureBox2.Size = New Size(81, 142)
@@ -165,7 +165,7 @@ Partial Class books_int
         ' 
         ' PictureBox3
         ' 
-        PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), Image)
+        PictureBox3.Image = My.Resources.Resources.accelaerate
         PictureBox3.Location = New Point(0, 0)
         PictureBox3.Name = "PictureBox3"
         PictureBox3.Size = New Size(81, 142)
@@ -202,7 +202,7 @@ Partial Class books_int
         ' 
         ' PictureBox4
         ' 
-        PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), Image)
+        PictureBox4.Image = My.Resources.Resources.geology_dummies
         PictureBox4.Location = New Point(0, 0)
         PictureBox4.Name = "PictureBox4"
         PictureBox4.Size = New Size(81, 142)
@@ -239,7 +239,7 @@ Partial Class books_int
         ' 
         ' PictureBox5
         ' 
-        PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), Image)
+        PictureBox5.Image = My.Resources.Resources.principles_of_geo
         PictureBox5.Location = New Point(0, 0)
         PictureBox5.Name = "PictureBox5"
         PictureBox5.Size = New Size(81, 142)
@@ -276,7 +276,7 @@ Partial Class books_int
         ' 
         ' PictureBox6
         ' 
-        PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), Image)
+        PictureBox6.Image = My.Resources.Resources.JoseRizal_LifeWorks
         PictureBox6.Location = New Point(0, 0)
         PictureBox6.Name = "PictureBox6"
         PictureBox6.Size = New Size(81, 142)
