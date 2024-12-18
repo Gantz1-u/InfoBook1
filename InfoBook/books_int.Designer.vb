@@ -34,9 +34,6 @@ Partial Class books_int
         Dim CustomizableEdges10 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges11 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
         Dim CustomizableEdges12 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges13 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim CustomizableEdges14 As Guna.UI2.WinForms.Suite.CustomizableEdges = New Guna.UI2.WinForms.Suite.CustomizableEdges()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(books_int))
         Panel1 = New Panel()
         PictureBox1 = New PictureBox()
         Guna2Button1 = New Guna.UI2.WinForms.Guna2Button()
@@ -62,8 +59,6 @@ Partial Class books_int
         Button3 = New Button()
         Button4 = New Button()
         Button5 = New Button()
-        Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
-        Button6 = New Button()
         Panel1.SuspendLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel2.SuspendLayout()
@@ -83,7 +78,7 @@ Partial Class books_int
         Panel1.BackColor = Color.Transparent
         Panel1.Controls.Add(PictureBox1)
         Panel1.Controls.Add(Guna2Button1)
-        Panel1.Location = New Point(4, 93)
+        Panel1.Location = New Point(4, 62)
         Panel1.Name = "Panel1"
         Panel1.Size = New Size(219, 142)
         Panel1.TabIndex = 0
@@ -121,7 +116,7 @@ Partial Class books_int
         Panel2.BackColor = Color.Transparent
         Panel2.Controls.Add(PictureBox2)
         Panel2.Controls.Add(Guna2Button2)
-        Panel2.Location = New Point(249, 93)
+        Panel2.Location = New Point(249, 62)
         Panel2.Name = "Panel2"
         Panel2.Size = New Size(219, 142)
         Panel2.TabIndex = 2
@@ -158,7 +153,7 @@ Partial Class books_int
         Panel3.BackColor = Color.Transparent
         Panel3.Controls.Add(PictureBox3)
         Panel3.Controls.Add(Guna2Button3)
-        Panel3.Location = New Point(510, 93)
+        Panel3.Location = New Point(510, 62)
         Panel3.Name = "Panel3"
         Panel3.Size = New Size(219, 142)
         Panel3.TabIndex = 2
@@ -195,7 +190,7 @@ Partial Class books_int
         Panel4.BackColor = Color.Transparent
         Panel4.Controls.Add(PictureBox4)
         Panel4.Controls.Add(Guna2Button4)
-        Panel4.Location = New Point(4, 264)
+        Panel4.Location = New Point(4, 233)
         Panel4.Name = "Panel4"
         Panel4.Size = New Size(219, 142)
         Panel4.TabIndex = 3
@@ -232,7 +227,7 @@ Partial Class books_int
         Panel5.BackColor = Color.Transparent
         Panel5.Controls.Add(PictureBox5)
         Panel5.Controls.Add(Guna2Button5)
-        Panel5.Location = New Point(249, 264)
+        Panel5.Location = New Point(249, 233)
         Panel5.Name = "Panel5"
         Panel5.Size = New Size(219, 142)
         Panel5.TabIndex = 2
@@ -269,7 +264,7 @@ Partial Class books_int
         Panel6.BackColor = Color.Transparent
         Panel6.Controls.Add(PictureBox6)
         Panel6.Controls.Add(Guna2Button6)
-        Panel6.Location = New Point(508, 264)
+        Panel6.Location = New Point(508, 233)
         Panel6.Name = "Panel6"
         Panel6.Size = New Size(219, 142)
         Panel6.TabIndex = 2
@@ -399,42 +394,6 @@ Partial Class books_int
         Button5.Text = ">"
         Button5.UseVisualStyleBackColor = False
         ' 
-        ' Guna2TextBox1
-        ' 
-        Guna2TextBox1.BackColor = Color.Transparent
-        Guna2TextBox1.BorderRadius = 20
-        Guna2TextBox1.CustomizableEdges = CustomizableEdges13
-        Guna2TextBox1.DefaultText = ""
-        Guna2TextBox1.DisabledState.BorderColor = Color.FromArgb(CByte(208), CByte(208), CByte(208))
-        Guna2TextBox1.DisabledState.FillColor = Color.FromArgb(CByte(226), CByte(226), CByte(226))
-        Guna2TextBox1.DisabledState.ForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.DisabledState.PlaceholderForeColor = Color.FromArgb(CByte(138), CByte(138), CByte(138))
-        Guna2TextBox1.FocusedState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Font = New Font("Segoe UI", 9F)
-        Guna2TextBox1.HoverState.BorderColor = Color.FromArgb(CByte(94), CByte(148), CByte(255))
-        Guna2TextBox1.Location = New Point(38, 22)
-        Guna2TextBox1.Name = "Guna2TextBox1"
-        Guna2TextBox1.PasswordChar = ChrW(0)
-        Guna2TextBox1.PlaceholderText = "SEARCH"
-        Guna2TextBox1.SelectedText = ""
-        Guna2TextBox1.ShadowDecoration.CustomizableEdges = CustomizableEdges14
-        Guna2TextBox1.Size = New Size(633, 40)
-        Guna2TextBox1.TabIndex = 16
-        ' 
-        ' Button6
-        ' 
-        Button6.BackColor = Color.Transparent
-        Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), Image)
-        Button6.BackgroundImageLayout = ImageLayout.Zoom
-        Button6.FlatAppearance.MouseDownBackColor = SystemColors.ActiveBorder
-        Button6.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button6.Image = CType(resources.GetObject("Button6.Image"), Image)
-        Button6.Location = New Point(617, 25)
-        Button6.Name = "Button6"
-        Button6.Size = New Size(43, 30)
-        Button6.TabIndex = 17
-        Button6.UseVisualStyleBackColor = False
-        ' 
         ' books_int
         ' 
         AllowDrop = True
@@ -445,8 +404,6 @@ Partial Class books_int
         BackgroundImage = My.Resources.Resources.Returndetails
         ClientSize = New Size(739, 480)
         ControlBox = False
-        Controls.Add(Button6)
-        Controls.Add(Guna2TextBox1)
         Controls.Add(Button5)
         Controls.Add(Button4)
         Controls.Add(Button3)
@@ -509,6 +466,4 @@ Partial Class books_int
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
-    Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
-    Friend WithEvents Button6 As Button
 End Class

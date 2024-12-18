@@ -80,7 +80,7 @@ Partial Class books_p2
         Button5.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button5.FlatStyle = FlatStyle.Flat
         Button5.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button5.Location = New Point(526, 399)
+        Button5.Location = New Point(513, 432)
         Button5.Name = "Button5"
         Button5.Size = New Size(43, 30)
         Button5.TabIndex = 41
@@ -94,7 +94,7 @@ Partial Class books_p2
         Button4.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button4.FlatStyle = FlatStyle.Flat
         Button4.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button4.Location = New Point(465, 399)
+        Button4.Location = New Point(452, 432)
         Button4.Name = "Button4"
         Button4.Size = New Size(43, 30)
         Button4.TabIndex = 40
@@ -108,7 +108,7 @@ Partial Class books_p2
         Button3.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button3.FlatStyle = FlatStyle.Flat
         Button3.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button3.Location = New Point(324, 399)
+        Button3.Location = New Point(311, 432)
         Button3.Name = "Button3"
         Button3.Size = New Size(43, 30)
         Button3.TabIndex = 39
@@ -122,7 +122,7 @@ Partial Class books_p2
         Button2.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button2.FlatStyle = FlatStyle.Flat
         Button2.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button2.Location = New Point(255, 399)
+        Button2.Location = New Point(242, 432)
         Button2.Name = "Button2"
         Button2.Size = New Size(43, 30)
         Button2.TabIndex = 37
@@ -136,7 +136,7 @@ Partial Class books_p2
         Button1.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button1.FlatStyle = FlatStyle.Flat
         Button1.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.Location = New Point(396, 399)
+        Button1.Location = New Point(383, 432)
         Button1.Name = "Button1"
         Button1.Size = New Size(43, 30)
         Button1.TabIndex = 38
@@ -150,7 +150,7 @@ Partial Class books_p2
         Button8.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button8.FlatStyle = FlatStyle.Flat
         Button8.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button8.Location = New Point(190, 399)
+        Button8.Location = New Point(177, 432)
         Button8.Name = "Button8"
         Button8.Size = New Size(43, 30)
         Button8.TabIndex = 36
@@ -164,7 +164,7 @@ Partial Class books_p2
         Button7.FlatAppearance.MouseOverBackColor = SystemColors.ControlDarkDark
         Button7.FlatStyle = FlatStyle.Flat
         Button7.Font = New Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button7.Location = New Point(117, 399)
+        Button7.Location = New Point(123, 432)
         Button7.Name = "Button7"
         Button7.Size = New Size(43, 30)
         Button7.TabIndex = 35

@@ -118,14 +118,17 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Critique in the ph economy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Critique in the ph economy.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="hitler" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hitler.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Addbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Addbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="49laws of power" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\49laws of power.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="richdad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\richdad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="criminal minds" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\criminal minds.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,8 +154,8 @@
   <data name="addbookdetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\addbookdetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="memberint" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\memberint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="intro to ph literature" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\intro to ph literature.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="reportedbooklist1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reportedbooklist1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,11 +169,17 @@
   <data name="JoseRizal LifeWorks" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JoseRizal LifeWorks.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Biag ni lam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Biag ni lam.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Untitled design (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Untitled design (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="macartur" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\macartur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fangirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fangirl.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="book unavailable1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\book unavailable1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,6 +205,9 @@
   <data name="logout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="florante at laura" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\florante at laura.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Elfi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elfi.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -208,17 +220,14 @@
   <data name="reportedbooklist" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\reportedbooklist.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fangirl" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fangirl.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Borrowersinfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Borrowersinfo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="principles_of_geo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\principles_of_geo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="removebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\removebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="richdad" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\richdad.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Borrowersinfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Borrowersinfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,14 +247,14 @@
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="florante at laura" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\florante at laura.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Ph constiturion book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ph constiturion book.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Abanakakapagbasanapalaako" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Abanakakapagbasanapalaako.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Biag ni lam" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Biag ni lam.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Dogeaters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dogeaters.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="flipped" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\flipped.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -265,8 +274,14 @@
   <data name="borrowbookmember" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\borrowbookmember.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Borrowersinfo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Borrowersinfo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="49laws of power" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49laws of power.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="memberint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\memberint.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ph unique nation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ph unique nation.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NoliMeTangere" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NoliMeTangere.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -277,6 +292,9 @@
   <data name="Borrowed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Borrowed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Filipino val" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Filipino val.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NAME" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NAME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -286,7 +304,7 @@
   <data name="BorrowDetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BorrowDetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Dogeaters" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Dogeaters.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="art of thinking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\art of thinking.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

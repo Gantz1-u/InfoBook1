@@ -105,9 +105,12 @@ Public Class BookDetails
 
     Public Sub UpdateText7(Bname7 As String, bauthor7 As String, pDate7 As String, desc7 As String)
         Label1.Text = Bname7
+        Label1.Font = New Font("Segoe UI", 14, FontStyle.Bold)
+
         Label2.Text = bauthor7
         Label3.Text = pDate7
         RichTextBox1.Text = desc7
+
     End Sub
 
     Public Sub UpdateText8(Bname8 As String, bauthor8 As String, pDate8 As String, desc8 As String)
@@ -162,6 +165,8 @@ Public Class BookDetails
     End Sub
     Public Sub UpdateAll4(Bname15 As String, bauthor15 As String, pDate15 As String, desc15 As String, pic15 As Image)
         Label1.Text = Bname15
+        Label1.Font = New Font("Segoe UI", 16, FontStyle.Bold)
+
         Label2.Text = bauthor15
         Label3.Text = pDate15
         RichTextBox1.Text = desc15
@@ -189,6 +194,102 @@ Public Class BookDetails
         RichTextBox1.Text = desc18
         PictureBox1.Image = pic18
     End Sub
+    Public Sub UpdateAll8(Bname19 As String, bauthor19 As String, pDate19 As String, desc19 As String, pic19 As Image)
+        Label1.Text = Bname19
+        Label1.Font = New Font("Segoe UI", 16, FontStyle.Bold)
+        Label2.Text = bauthor19
+        Label3.Text = pDate19
+        RichTextBox1.Text = desc19
+        PictureBox1.Image = pic19
+    End Sub
+    Public Sub UpdateAll9(Bname20 As String, bauthor20 As String, pDate20 As String, desc20 As String, pic20 As Image)
+        Label1.Text = Bname20
+        Label2.Text = bauthor20
+        Label3.Text = pDate20
+        RichTextBox1.Text = desc20
+        PictureBox1.Image = pic20
+    End Sub
+    Public Sub UpdateAll10(Bname21 As String, bauthor21 As String, pDate21 As String, desc21 As String, pic21 As Image)
+        Label1.Text = Bname21
+        Label2.Text = bauthor21
+        Label3.Text = pDate21
+        RichTextBox1.Text = desc21
+        PictureBox1.Image = pic21
+    End Sub
+    Public Sub UpdateAll11(Bname22 As String, bauthor22 As String, pDate22 As String, desc22 As String, pic22 As Image)
+        Label1.Text = Bname22
+        Label2.Text = bauthor22
+        Label3.Text = pDate22
+        RichTextBox1.Text = desc22
+        PictureBox1.Image = pic22
+    End Sub
+    Public Sub UpdateAll111(Bname22 As String, bauthor22 As String, pDate22 As String, desc22 As String, pic22 As Image)
+        Label1.Text = Bname22
+        Label2.Text = bauthor22
+        Label3.Text = pDate22
+        RichTextBox1.Text = desc22
+        PictureBox1.Image = pic22
+    End Sub
+
+    Public Sub UpdateAll12(Bname23 As String, bauthor23 As String, pDate23 As String, desc23 As String, pic23 As Image)
+        Label1.Text = Bname23
+        Label2.Text = bauthor23
+        Label3.Text = pDate23
+        RichTextBox1.Text = desc23
+        PictureBox1.Image = pic23
+    End Sub
+
+    Public Sub UpdateAll13(Bname24 As String, bauthor24 As String, pDate24 As String, desc24 As String, pic24 As Image)
+        Label1.Text = Bname24
+        Label2.Text = bauthor24
+        Label3.Text = pDate24
+        RichTextBox1.Text = desc24
+        PictureBox1.Image = pic24
+    End Sub
+    Public Sub UpdateAll14(Bname25 As String, bauthor25 As String, pDate25 As String, desc25 As String, pic25 As Image)
+        Label1.Text = Bname25
+        Label2.Text = bauthor25
+        Label3.Text = pDate25
+        RichTextBox1.Text = desc25
+        PictureBox1.Image = pic25
+    End Sub
+
+    Public Sub UpdateAll15(Bname26 As String, bauthor26 As String, pDate26 As String, desc26 As String, pic26 As Image)
+        Label1.Text = Bname26
+        Label1.Font = New Font("Segoe UI", 16, FontStyle.Bold)
+
+        Label2.Text = bauthor26
+        Label3.Text = pDate26
+        RichTextBox1.Text = desc26
+        PictureBox1.Image = pic26
+    End Sub
+
+    Public Sub UpdateAll16(Bname27 As String, bauthor27 As String, pDate27 As String, desc27 As String, pic27 As Image)
+        Label1.Text = Bname27
+        Label2.Text = bauthor27
+        Label3.Text = pDate27
+        RichTextBox1.Text = desc27
+        PictureBox1.Image = pic27
+    End Sub
+
+    Public Sub UpdateAll17(Bname28 As String, bauthor28 As String, pDate28 As String, desc28 As String, pic28 As Image)
+        Label1.Text = Bname28
+        Label2.Text = bauthor28
+        Label3.Text = pDate28
+        RichTextBox1.Text = desc28
+        PictureBox1.Image = pic28
+    End Sub
+
+    Public Sub UpdateAll18(Bname29 As String, bauthor29 As String, pDate29 As String, desc29 As String, pic29 As Image)
+        Label1.Text = Bname29
+        Label2.Text = bauthor29
+        Label3.Text = pDate29
+        RichTextBox1.Text = desc29
+        PictureBox1.Image = pic29
+    End Sub
+
+
+
 
 
 
@@ -260,6 +361,15 @@ Public Class BookDetails
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
+
+    Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs)
+
+    End Sub
+
+    Private Sub Guna2Button1_Click(sender As Object, e As EventArgs) Handles Guna2Button1.Click
+        PNL_TermsandCond.Visible = False
 
     End Sub
 End Class

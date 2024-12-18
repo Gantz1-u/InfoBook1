@@ -85,7 +85,7 @@ Public Class books_p2
     End Sub
 
     Private Sub Guna2Button2_Click(sender As Object, e As EventArgs) Handles Guna2Button2.Click
-        Dim Bname13 As String = "florante at laura"
+        Dim Bname13 As String = "Florante at Laura"
         Dim bauthor13 As String = "Francisco Balagtas"
         Dim pDate13 As String = "1838"
         Dim desc13 As String = "Florante at Laura is a narrative poem that centers around the story of Florante, a prince, and his beloved Laura, set against the backdrop of the kingdom of Albanya. The poem explores themes such as love, betrayal, political intrigue, and heroism. The plot revolves around Florante's love for Laura, his battles against rivals, and his struggles with fate, but also touches on political corruption, loyalty, and justice. The work is also a reflection of Balagtas’ views on Filipino society during the Spanish colonial period."

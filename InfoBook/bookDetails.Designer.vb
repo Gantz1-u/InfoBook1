@@ -51,10 +51,10 @@ Partial Class BookDetails
         PNL_TermsandCond.BackgroundImageLayout = ImageLayout.Stretch
         PNL_TermsandCond.Controls.Add(Guna2Button1)
         PNL_TermsandCond.Controls.Add(Bt_BackBMTND)
-        PNL_TermsandCond.Location = New Point(198, 21)
+        PNL_TermsandCond.Location = New Point(135, 1)
         PNL_TermsandCond.Margin = New Padding(3, 2, 3, 2)
         PNL_TermsandCond.Name = "PNL_TermsandCond"
-        PNL_TermsandCond.Size = New Size(65, 66)
+        PNL_TermsandCond.Size = New Size(527, 468)
         PNL_TermsandCond.TabIndex = 2
         PNL_TermsandCond.Visible = False
         ' 
@@ -70,7 +70,7 @@ Partial Class BookDetails
         Guna2Button1.FillColor = Color.Gray
         Guna2Button1.Font = New Font("Segoe UI", 13.2000008F, FontStyle.Bold)
         Guna2Button1.ForeColor = Color.Black
-        Guna2Button1.Location = New Point(191, 407)
+        Guna2Button1.Location = New Point(173, 435)
         Guna2Button1.Margin = New Padding(3, 2, 3, 2)
         Guna2Button1.Name = "Guna2Button1"
         Guna2Button1.ShadowDecoration.CustomizableEdges = CustomizableEdges2

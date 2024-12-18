@@ -113,6 +113,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property art_of_thinking() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("art of thinking", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property AVAILABLE_BOOKS_ADMIN_1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("AVAILABLE BOOKS ADMIN 1", resourceCulture)
@@ -233,6 +243,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Critique_in_the_ph_economy() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Critique in the ph economy", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Dogeaters() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Dogeaters", resourceCulture)
@@ -276,6 +296,16 @@ Namespace My.Resources
         Friend ReadOnly Property fangirl() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("fangirl", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property Filipino_val() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Filipino val", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -356,6 +386,16 @@ Namespace My.Resources
         Friend ReadOnly Property info_1() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("info_1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property intro_to_ph_literature() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("intro to ph literature", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -483,9 +523,29 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property Ph_constiturion_book() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Ph constiturion book", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property Ph_history() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("Ph history", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
+        Friend ReadOnly Property ph_unique_nation() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ph unique nation", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
